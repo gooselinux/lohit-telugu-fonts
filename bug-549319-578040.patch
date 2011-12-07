@@ -1,0 +1,12 @@
+diff -rup lohit-telugu-2.4.5/66-lohit-telugu.conf lohit-telugu-2.4.5_mod/66-lohit-telugu.conf
+--- lohit-telugu-2.4.5/66-lohit-telugu.conf	2009-11-25 12:47:59.000000000 +0530
++++ lohit-telugu-2.4.5_mod/66-lohit-telugu.conf	2010-04-19 14:01:19.000000000 +0530
+@@ -8,7 +8,7 @@
+   <test name="family">
+     <string>sans-serif</string>
+   </test>
+-  <edit name="family" mode="prepend_first" binding="same">
++  <edit name="family" mode="prepend">
+     <string>Lohit Telugu</string>
+   </edit>
+ </match>

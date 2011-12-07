@@ -1,0 +1,5030 @@
+diff -rup lohit-telugu-2.4.5/Lohit-Telugu.sfd lohit-telugu-2.4.5_mod/Lohit-Telugu.sfd
+--- lohit-telugu-2.4.5/Lohit-Telugu.sfd	2009-11-25 12:47:59.000000000 +0530
++++ lohit-telugu-2.4.5_mod/Lohit-Telugu.sfd	2010-05-03 16:22:00.000000000 +0530
+@@ -13,13 +13,14 @@ Descent: 334
+ LayerCount: 2
+ Layer: 0 1 "Back"  1
+ Layer: 1 1 "Fore"  0
++NeedsXUIDChange: 1
+ XUID: [1021 648 100124046 8549501]
+ FSType: 0
+ OS2Version: 1
+ OS2_WeightWidthSlopeOnly: 0
+ OS2_UseTypoMetrics: 1
+ CreationTime: 1153280036
+-ModificationTime: 1259131491
++ModificationTime: 1272883896
+ PfmFamily: 17
+ TTFWeight: 400
+ TTFWidth: 5
+@@ -2890,7 +2891,7 @@ AntiAlias: 1
+ FitToEm: 1
+ WinInfo: 0 28 11
+ AnchorClass2: "Anchor-0"  "'blwm' Below Base Mark in Telugu lookup 0" 
+-BeginChars: 65989 556
++BeginChars: 65989 553
+ 
+ StartChar: .notdef
+ Encoding: 65536 -1 0
+@@ -2944,67 +2945,8 @@ Flags: W
+ LayerCount: 2
+ EndChar
+ 
+-StartChar: hyphen
+-Encoding: 45 45 4
+-Width: 870
+-VWidth: 819
+-GlyphClass: 2
+-Flags: W
+-LayerCount: 2
+-EndChar
+-
+-StartChar: uni0214
+-Encoding: 532 532 5
+-Width: 640
+-VWidth: 819
+-GlyphClass: 2
+-Flags: W
+-LayerCount: 2
+-Fore
+-SplineSet
+-80 -248 m 1,0,-1
+- 80 312 l 1,1,-1
+- 560 312 l 1,2,-1
+- 560 -248 l 1,3,-1
+- 80 -248 l 1,4,-1
+- 80 -248 l 1,0,-1
+-120 -208 m 1,5,-1
+- 520 -208 l 1,6,-1
+- 520 272 l 1,7,-1
+- 120 272 l 1,8,-1
+- 120 -208 l 1,9,-1
+- 120 -208 l 1,5,-1
+-EndSplineSet
+-Validated: 5
+-EndChar
+-
+-StartChar: uni021C
+-Encoding: 540 540 6
+-Width: 640
+-VWidth: 819
+-GlyphClass: 2
+-Flags: W
+-LayerCount: 2
+-Fore
+-SplineSet
+-80 -248 m 1,0,-1
+- 80 312 l 1,1,-1
+- 560 312 l 1,2,-1
+- 560 -248 l 1,3,-1
+- 80 -248 l 1,4,-1
+- 80 -248 l 1,0,-1
+-120 -208 m 1,5,-1
+- 520 -208 l 1,6,-1
+- 520 272 l 1,7,-1
+- 120 272 l 1,8,-1
+- 120 -208 l 1,9,-1
+- 120 -208 l 1,5,-1
+-EndSplineSet
+-Validated: 5
+-EndChar
+-
+ StartChar: U0C01
+-Encoding: 3073 3073 7
++Encoding: 3073 3073 4
+ Width: 355
+ VWidth: 819
+ GlyphClass: 2
+@@ -3037,7 +2979,7 @@ Validated: 37
+ EndChar
+ 
+ StartChar: U0C02
+-Encoding: 3074 3074 8
++Encoding: 3074 3074 5
+ Width: 540
+ VWidth: 819
+ GlyphClass: 2
+@@ -3070,7 +3012,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C03
+-Encoding: 3075 3075 9
++Encoding: 3075 3075 6
+ Width: 293
+ VWidth: 819
+ GlyphClass: 2
+@@ -3123,7 +3065,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C05
+-Encoding: 3077 3077 10
++Encoding: 3077 3077 7
+ Width: 677
+ VWidth: 819
+ GlyphClass: 2
+@@ -3185,7 +3127,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C06
+-Encoding: 3078 3078 11
++Encoding: 3078 3078 8
+ Width: 727
+ VWidth: 819
+ GlyphClass: 2
+@@ -3257,7 +3199,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C07
+-Encoding: 3079 3079 12
++Encoding: 3079 3079 9
+ Width: 623
+ VWidth: 819
+ GlyphClass: 2
+@@ -3321,7 +3263,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C08
+-Encoding: 3080 3080 13
++Encoding: 3080 3080 10
+ Width: 1068
+ VWidth: 819
+ GlyphClass: 2
+@@ -3409,7 +3351,7 @@ Validated: 37
+ EndChar
+ 
+ StartChar: U0C09
+-Encoding: 3081 3081 14
++Encoding: 3081 3081 11
+ Width: 654
+ VWidth: 819
+ GlyphClass: 2
+@@ -3474,7 +3416,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C0A
+-Encoding: 3082 3082 15
++Encoding: 3082 3082 12
+ Width: 1016
+ VWidth: 819
+ GlyphClass: 2
+@@ -3581,7 +3523,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C0B
+-Encoding: 3083 3083 16
++Encoding: 3083 3083 13
+ Width: 1399
+ VWidth: 819
+ GlyphClass: 2
+@@ -3666,7 +3608,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C0C
+-Encoding: 3084 3084 17
++Encoding: 3084 3084 14
+ Width: 795
+ VWidth: 819
+ GlyphClass: 2
+@@ -3725,7 +3667,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C0E
+-Encoding: 3086 3086 18
++Encoding: 3086 3086 15
+ Width: 590
+ VWidth: 819
+ GlyphClass: 2
+@@ -3772,7 +3714,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C0F
+-Encoding: 3087 3087 19
++Encoding: 3087 3087 16
+ Width: 590
+ VWidth: 819
+ GlyphClass: 2
+@@ -3827,7 +3769,7 @@ Validated: 37
+ EndChar
+ 
+ StartChar: U0C10
+-Encoding: 3088 3088 20
++Encoding: 3088 3088 17
+ Width: 676
+ VWidth: 819
+ GlyphClass: 2
+@@ -3888,7 +3830,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C12
+-Encoding: 3090 3090 21
++Encoding: 3090 3090 18
+ Width: 614
+ VWidth: 819
+ GlyphClass: 2
+@@ -3947,7 +3889,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C13
+-Encoding: 3091 3091 22
++Encoding: 3091 3091 19
+ Width: 616
+ VWidth: 819
+ GlyphClass: 2
+@@ -4020,7 +3962,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C14
+-Encoding: 3092 3092 23
++Encoding: 3092 3092 20
+ Width: 734
+ VWidth: 819
+ GlyphClass: 2
+@@ -4117,7 +4059,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C15
+-Encoding: 3093 3093 24
++Encoding: 3093 3093 21
+ Width: 512
+ VWidth: 819
+ GlyphClass: 2
+@@ -4170,7 +4112,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C16
+-Encoding: 3094 3094 25
++Encoding: 3094 3094 22
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -4252,7 +4194,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C17
+-Encoding: 3095 3095 26
++Encoding: 3095 3095 23
+ Width: 519
+ VWidth: 819
+ GlyphClass: 2
+@@ -4288,7 +4230,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C18
+-Encoding: 3096 3096 27
++Encoding: 3096 3096 24
+ Width: 896
+ VWidth: 819
+ GlyphClass: 2
+@@ -4372,7 +4314,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C19
+-Encoding: 3097 3097 28
++Encoding: 3097 3097 25
+ Width: 618
+ VWidth: 819
+ GlyphClass: 2
+@@ -4439,7 +4381,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C1A
+-Encoding: 3098 3098 29
++Encoding: 3098 3098 26
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -4499,7 +4441,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C1B
+-Encoding: 3099 3099 30
++Encoding: 3099 3099 27
+ Width: 641
+ VWidth: 819
+ GlyphClass: 2
+@@ -4566,7 +4508,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C1C
+-Encoding: 3100 3100 31
++Encoding: 3100 3100 28
+ Width: 651
+ VWidth: 819
+ GlyphClass: 2
+@@ -4644,7 +4586,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C1D
+-Encoding: 3101 3101 32
++Encoding: 3101 3101 29
+ Width: 1183
+ VWidth: 819
+ GlyphClass: 2
+@@ -4723,7 +4665,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C1E
+-Encoding: 3102 3102 33
++Encoding: 3102 3102 30
+ Width: 808
+ VWidth: 819
+ GlyphClass: 2
+@@ -4797,7 +4739,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C1F
+-Encoding: 3103 3103 34
++Encoding: 3103 3103 31
+ Width: 744
+ VWidth: 819
+ GlyphClass: 2
+@@ -4858,7 +4800,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C20
+-Encoding: 3104 3104 35
++Encoding: 3104 3104 32
+ Width: 540
+ VWidth: 819
+ GlyphClass: 2
+@@ -4908,7 +4850,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C21
+-Encoding: 3105 3105 36
++Encoding: 3105 3105 33
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -4977,7 +4919,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C22
+-Encoding: 3106 3106 37
++Encoding: 3106 3106 34
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -5052,7 +4994,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C23
+-Encoding: 3107 3107 38
++Encoding: 3107 3107 35
+ Width: 761
+ VWidth: 819
+ GlyphClass: 2
+@@ -5126,7 +5068,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C24
+-Encoding: 3108 3108 39
++Encoding: 3108 3108 36
+ Width: 654
+ VWidth: 819
+ GlyphClass: 2
+@@ -5202,7 +5144,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C25
+-Encoding: 3109 3109 40
++Encoding: 3109 3109 37
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -5268,7 +5210,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C26
+-Encoding: 3110 3110 41
++Encoding: 3110 3110 38
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -5322,7 +5264,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C27
+-Encoding: 3111 3111 42
++Encoding: 3111 3111 39
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -5382,7 +5324,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C28
+-Encoding: 3112 3112 43
++Encoding: 3112 3112 40
+ Width: 606
+ VWidth: 819
+ GlyphClass: 2
+@@ -5434,7 +5376,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C2A
+-Encoding: 3114 3114 44
++Encoding: 3114 3114 41
+ Width: 572
+ VWidth: 819
+ GlyphClass: 2
+@@ -5496,7 +5438,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C2B
+-Encoding: 3115 3115 45
++Encoding: 3115 3115 42
+ Width: 577
+ VWidth: 819
+ GlyphClass: 2
+@@ -5564,7 +5506,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C2C
+-Encoding: 3116 3116 46
++Encoding: 3116 3116 43
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -5624,7 +5566,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C2D
+-Encoding: 3117 3117 47
++Encoding: 3117 3117 44
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -5699,7 +5641,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C2E
+-Encoding: 3118 3118 48
++Encoding: 3118 3118 45
+ Width: 956
+ VWidth: 819
+ GlyphClass: 2
+@@ -5771,7 +5713,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C2F
+-Encoding: 3119 3119 49
++Encoding: 3119 3119 46
+ Width: 1233
+ VWidth: 819
+ GlyphClass: 2
+@@ -5845,7 +5787,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C30
+-Encoding: 3120 3120 50
++Encoding: 3120 3120 47
+ Width: 540
+ VWidth: 819
+ GlyphClass: 2
+@@ -5889,7 +5831,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C31
+-Encoding: 3121 3121 51
++Encoding: 3121 3121 48
+ Width: 756
+ VWidth: 819
+ GlyphClass: 2
+@@ -5962,7 +5904,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C32
+-Encoding: 3122 3122 52
++Encoding: 3122 3122 49
+ Width: 594
+ VWidth: 819
+ GlyphClass: 2
+@@ -6013,7 +5955,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C33
+-Encoding: 3123 3123 53
++Encoding: 3123 3123 50
+ Width: 561
+ VWidth: 819
+ GlyphClass: 2
+@@ -6089,7 +6031,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C35
+-Encoding: 3125 3125 54
++Encoding: 3125 3125 51
+ Width: 576
+ VWidth: 819
+ GlyphClass: 2
+@@ -6148,7 +6090,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C36
+-Encoding: 3126 3126 55
++Encoding: 3126 3126 52
+ Width: 500
+ VWidth: 819
+ GlyphClass: 2
+@@ -6216,7 +6158,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C37
+-Encoding: 3127 3127 56
++Encoding: 3127 3127 53
+ Width: 600
+ VWidth: 819
+ GlyphClass: 2
+@@ -6285,7 +6227,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C38
+-Encoding: 3128 3128 57
++Encoding: 3128 3128 54
+ Width: 590
+ VWidth: 819
+ GlyphClass: 2
+@@ -6341,7 +6283,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C39
+-Encoding: 3129 3129 58
++Encoding: 3129 3129 55
+ Width: 882
+ VWidth: 819
+ GlyphClass: 2
+@@ -6427,7 +6369,7 @@ MultipleSubs2: "Multiple Substitution lo
+ EndChar
+ 
+ StartChar: U0C3E
+-Encoding: 3134 3134 59
++Encoding: 3134 3134 56
+ Width: 601
+ VWidth: 819
+ GlyphClass: 2
+@@ -6465,7 +6407,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C3F
+-Encoding: 3135 3135 60
++Encoding: 3135 3135 57
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -6508,7 +6450,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C40
+-Encoding: 3136 3136 61
++Encoding: 3136 3136 58
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -6565,7 +6507,7 @@ Validated: 37
+ EndChar
+ 
+ StartChar: U0C41
+-Encoding: 3137 3137 62
++Encoding: 3137 3137 59
+ Width: 368
+ VWidth: 819
+ GlyphClass: 2
+@@ -6594,7 +6536,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C42
+-Encoding: 3138 3138 63
++Encoding: 3138 3138 60
+ Width: 724
+ VWidth: 819
+ GlyphClass: 2
+@@ -6647,7 +6589,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C43
+-Encoding: 3139 3139 64
++Encoding: 3139 3139 61
+ Width: 321
+ VWidth: 819
+ GlyphClass: 2
+@@ -6692,7 +6634,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C44
+-Encoding: 3140 3140 65
++Encoding: 3140 3140 62
+ Width: 612
+ VWidth: 819
+ GlyphClass: 2
+@@ -6761,7 +6703,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C46
+-Encoding: 3142 3142 66
++Encoding: 3142 3142 63
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -6790,7 +6732,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C47
+-Encoding: 3143 3143 67
++Encoding: 3143 3143 64
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -6834,7 +6776,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C48
+-Encoding: 3144 3144 68
++Encoding: 3144 3144 65
+ Width: 734
+ VWidth: 819
+ GlyphClass: 2
+@@ -6889,7 +6831,7 @@ Substitution2: "'abvs' Above Base Substi
+ EndChar
+ 
+ StartChar: U0C4A
+-Encoding: 3146 3146 69
++Encoding: 3146 3146 66
+ Width: 580
+ VWidth: 819
+ GlyphClass: 2
+@@ -6947,7 +6889,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C4B
+-Encoding: 3147 3147 70
++Encoding: 3147 3147 67
+ Width: 577
+ VWidth: 819
+ GlyphClass: 2
+@@ -7019,7 +6961,7 @@ Validated: 37
+ EndChar
+ 
+ StartChar: U0C4C
+-Encoding: 3148 3148 71
++Encoding: 3148 3148 68
+ Width: 614
+ VWidth: 819
+ GlyphClass: 2
+@@ -7071,7 +7013,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C4D
+-Encoding: 3149 3149 72
++Encoding: 3149 3149 69
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -7112,7 +7054,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C55
+-Encoding: 3157 3157 73
++Encoding: 3157 3157 70
+ Width: 387
+ VWidth: 819
+ GlyphClass: 2
+@@ -7141,7 +7083,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C56
+-Encoding: 3158 3158 74
++Encoding: 3158 3158 71
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -7179,7 +7121,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C60
+-Encoding: 3168 3168 75
++Encoding: 3168 3168 72
+ Width: 1747
+ VWidth: 819
+ GlyphClass: 2
+@@ -7288,7 +7230,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C61
+-Encoding: 3169 3169 76
++Encoding: 3169 3169 73
+ Width: 1160
+ VWidth: 819
+ GlyphClass: 2
+@@ -7371,7 +7313,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C66
+-Encoding: 3174 3174 77
++Encoding: 3174 3174 74
+ Width: 738
+ VWidth: 819
+ GlyphClass: 2
+@@ -7404,7 +7346,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C67
+-Encoding: 3175 3175 78
++Encoding: 3175 3175 75
+ Width: 740
+ VWidth: 819
+ GlyphClass: 2
+@@ -7437,7 +7379,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: U0C68
+-Encoding: 3176 3176 79
++Encoding: 3176 3176 76
+ Width: 738
+ VWidth: 819
+ GlyphClass: 2
+@@ -7481,7 +7423,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C69
+-Encoding: 3177 3177 80
++Encoding: 3177 3177 77
+ Width: 740
+ VWidth: 819
+ GlyphClass: 2
+@@ -7526,7 +7468,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C6A
+-Encoding: 3178 3178 81
++Encoding: 3178 3178 78
+ Width: 738
+ VWidth: 819
+ GlyphClass: 2
+@@ -7577,7 +7519,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C6B
+-Encoding: 3179 3179 82
++Encoding: 3179 3179 79
+ Width: 740
+ VWidth: 819
+ GlyphClass: 2
+@@ -7634,7 +7576,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C6C
+-Encoding: 3180 3180 83
++Encoding: 3180 3180 80
+ Width: 740
+ VWidth: 819
+ GlyphClass: 2
+@@ -7675,7 +7617,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C6D
+-Encoding: 3181 3181 84
++Encoding: 3181 3181 81
+ Width: 738
+ VWidth: 819
+ GlyphClass: 2
+@@ -7716,7 +7658,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C6E
+-Encoding: 3182 3182 85
++Encoding: 3182 3182 82
+ Width: 740
+ VWidth: 819
+ GlyphClass: 2
+@@ -7754,7 +7696,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C6F
+-Encoding: 3183 3183 86
++Encoding: 3183 3183 83
+ Width: 740
+ VWidth: 819
+ GlyphClass: 2
+@@ -7795,7 +7737,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: afii61664
+-Encoding: 8204 8204 87
++Encoding: 8204 8204 84
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -7814,7 +7756,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: afii301
+-Encoding: 8205 8205 88
++Encoding: 8205 8205 85
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -7835,7 +7777,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: minus
+-Encoding: 8722 8722 89
++Encoding: 8722 8722 86
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -7860,7 +7802,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: uni25CC
+-Encoding: 9676 9676 90
++Encoding: 9676 9676 87
+ Width: 870
+ VWidth: 819
+ GlyphClass: 2
+@@ -7993,7 +7935,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph86
+-Encoding: 65539 -1 91
++Encoding: 65539 -1 88
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8018,7 +7960,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph88
+-Encoding: 65540 -1 92
++Encoding: 65540 -1 89
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8043,7 +7985,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph89
+-Encoding: 65541 -1 93
++Encoding: 65541 -1 90
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8068,7 +8010,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph91
+-Encoding: 65542 -1 94
++Encoding: 65542 -1 91
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8093,7 +8035,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph92
+-Encoding: 65543 -1 95
++Encoding: 65543 -1 92
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8118,7 +8060,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph94
+-Encoding: 65544 -1 96
++Encoding: 65544 -1 93
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8143,7 +8085,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph95
+-Encoding: 65545 -1 97
++Encoding: 65545 -1 94
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8168,7 +8110,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph96
+-Encoding: 65546 -1 98
++Encoding: 65546 -1 95
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8193,7 +8135,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph97
+-Encoding: 65547 -1 99
++Encoding: 65547 -1 96
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8218,7 +8160,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph98
+-Encoding: 65548 -1 100
++Encoding: 65548 -1 97
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8243,7 +8185,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph99
+-Encoding: 65549 -1 101
++Encoding: 65549 -1 98
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8268,7 +8210,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph100
+-Encoding: 65550 -1 102
++Encoding: 65550 -1 99
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8293,7 +8235,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph101
+-Encoding: 65551 -1 103
++Encoding: 65551 -1 100
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -8318,7 +8260,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C15_U0C3E.abvs
+-Encoding: 65552 -1 104
++Encoding: 65552 -1 101
+ Width: 800
+ VWidth: 819
+ GlyphClass: 2
+@@ -8384,7 +8326,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C16_U0C3E.abvs
+-Encoding: 65553 -1 105
++Encoding: 65553 -1 102
+ Width: 967
+ VWidth: 819
+ GlyphClass: 2
+@@ -8488,7 +8430,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C17_U0C3E.abvs
+-Encoding: 65554 -1 106
++Encoding: 65554 -1 103
+ Width: 843
+ VWidth: 819
+ GlyphClass: 2
+@@ -8538,7 +8480,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C18_U0C3E.abvs
+-Encoding: 65555 -1 107
++Encoding: 65555 -1 104
+ Width: 1312
+ VWidth: 819
+ GlyphClass: 2
+@@ -8645,7 +8587,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C19_U0C3E.abvs
+-Encoding: 65556 -1 108
++Encoding: 65556 -1 105
+ Width: 930
+ VWidth: 819
+ GlyphClass: 2
+@@ -8735,7 +8677,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1A_U0C3E.abvs
+-Encoding: 65557 -1 109
++Encoding: 65557 -1 106
+ Width: 936
+ VWidth: 819
+ GlyphClass: 2
+@@ -8808,7 +8750,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1B_U0C3E.abvs
+-Encoding: 65558 -1 110
++Encoding: 65558 -1 107
+ Width: 950
+ VWidth: 819
+ GlyphClass: 2
+@@ -8888,7 +8830,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1C_U0C3E.abvs
+-Encoding: 65559 -1 111
++Encoding: 65559 -1 108
+ Width: 931
+ VWidth: 819
+ GlyphClass: 2
+@@ -8985,7 +8927,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1D_U0C3E.abvs
+-Encoding: 65560 -1 112
++Encoding: 65560 -1 109
+ Width: 1643
+ VWidth: 819
+ GlyphClass: 4
+@@ -9089,7 +9031,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1E_U0C3E.abvs
+-Encoding: 65561 -1 113
++Encoding: 65561 -1 110
+ Width: 1140
+ VWidth: 819
+ GlyphClass: 2
+@@ -9186,7 +9128,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1F_U0C3E.abvs
+-Encoding: 65562 -1 114
++Encoding: 65562 -1 111
+ Width: 1024
+ VWidth: 819
+ GlyphClass: 2
+@@ -9270,7 +9212,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C20_U0C3E.abvs
+-Encoding: 65563 -1 115
++Encoding: 65563 -1 112
+ Width: 886
+ VWidth: 819
+ GlyphClass: 2
+@@ -9334,7 +9276,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C21_U0C3E.abvs
+-Encoding: 65564 -1 116
++Encoding: 65564 -1 113
+ Width: 949
+ VWidth: 819
+ GlyphClass: 2
+@@ -9416,7 +9358,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C22_U0C3E.abvs
+-Encoding: 65565 -1 117
++Encoding: 65565 -1 114
+ Width: 949
+ VWidth: 819
+ GlyphClass: 2
+@@ -9504,7 +9446,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C23_U0C3E.abvs
+-Encoding: 65566 -1 118
++Encoding: 65566 -1 115
+ Width: 1018
+ VWidth: 819
+ GlyphClass: 4
+@@ -9601,7 +9543,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C24_U0C3E.abvs
+-Encoding: 65567 -1 119
++Encoding: 65567 -1 116
+ Width: 944
+ VWidth: 819
+ GlyphClass: 2
+@@ -9690,7 +9632,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C25_U0C3E.abvs
+-Encoding: 65568 -1 120
++Encoding: 65568 -1 117
+ Width: 949
+ VWidth: 819
+ GlyphClass: 2
+@@ -9770,7 +9712,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C26_U0C3E.abvs
+-Encoding: 65569 -1 121
++Encoding: 65569 -1 118
+ Width: 949
+ VWidth: 819
+ GlyphClass: 2
+@@ -9838,7 +9780,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C27_U0C3E.abvs
+-Encoding: 65570 -1 122
++Encoding: 65570 -1 119
+ Width: 949
+ VWidth: 819
+ GlyphClass: 2
+@@ -9912,7 +9854,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C28_U0C3E.abvs
+-Encoding: 65571 -1 123
++Encoding: 65571 -1 120
+ Width: 942
+ VWidth: 819
+ GlyphClass: 2
+@@ -9977,7 +9919,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2A_U0C3E.abvs
+-Encoding: 65572 -1 124
++Encoding: 65572 -1 121
+ Width: 907
+ VWidth: 819
+ GlyphClass: 2
+@@ -10054,7 +9996,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2B_U0C3E.abvs
+-Encoding: 65573 -1 125
++Encoding: 65573 -1 122
+ Width: 895
+ VWidth: 819
+ GlyphClass: 2
+@@ -10137,7 +10079,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2C_U0C3E.abvs
+-Encoding: 65574 -1 126
++Encoding: 65574 -1 123
+ Width: 930
+ VWidth: 819
+ GlyphClass: 2
+@@ -10220,7 +10162,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2D_U0C3E.abvs
+-Encoding: 65575 -1 127
++Encoding: 65575 -1 124
+ Width: 931
+ VWidth: 819
+ GlyphClass: 2
+@@ -10309,7 +10251,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2E_U0C3E.abvs
+-Encoding: 65576 -1 128
++Encoding: 65576 -1 125
+ Width: 1312
+ VWidth: 819
+ GlyphClass: 2
+@@ -10405,7 +10347,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2F_U0C3E.abvs
+-Encoding: 65577 -1 129
++Encoding: 65577 -1 126
+ Width: 1588
+ VWidth: 819
+ GlyphClass: 2
+@@ -10503,7 +10445,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C30_U0C3E.abvs
+-Encoding: 65578 -1 130
++Encoding: 65578 -1 127
+ Width: 827
+ VWidth: 819
+ GlyphClass: 2
+@@ -10561,7 +10503,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C31_U0C3E.abvs
+-Encoding: 65579 -1 131
++Encoding: 65579 -1 128
+ Width: 1012
+ VWidth: 819
+ GlyphClass: 2
+@@ -10658,7 +10600,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C32_U0C3E.abvs
+-Encoding: 65580 -1 132
++Encoding: 65580 -1 129
+ Width: 940
+ VWidth: 819
+ GlyphClass: 2
+@@ -10731,7 +10673,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C33_U0C3E.abvs
+-Encoding: 65581 -1 133
++Encoding: 65581 -1 130
+ Width: 897
+ VWidth: 819
+ GlyphClass: 2
+@@ -10820,7 +10762,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C35_U0C3E.abvs
+-Encoding: 65582 -1 134
++Encoding: 65582 -1 131
+ Width: 890
+ VWidth: 819
+ GlyphClass: 2
+@@ -10891,7 +10833,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C36_U0C3E.abvs
+-Encoding: 65583 -1 135
++Encoding: 65583 -1 132
+ Width: 836
+ VWidth: 819
+ GlyphClass: 2
+@@ -10972,7 +10914,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C37_U0C3E.abvs
+-Encoding: 65584 -1 136
++Encoding: 65584 -1 133
+ Width: 912
+ VWidth: 819
+ GlyphClass: 2
+@@ -11056,7 +10998,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C3E.abvs
+-Encoding: 65585 -1 137
++Encoding: 65585 -1 134
+ Width: 900
+ VWidth: 819
+ GlyphClass: 2
+@@ -11127,7 +11069,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C39_U0C3E.abvs
+-Encoding: 65586 -1 138
++Encoding: 65586 -1 135
+ Width: 884
+ VWidth: 819
+ GlyphClass: 2
+@@ -11228,7 +11170,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C15_U0C3E_U0C37_U0C4D.akhn
+-Encoding: 65587 -1 139
++Encoding: 65587 -1 136
+ Width: 822
+ VWidth: 819
+ GlyphClass: 2
+@@ -11322,7 +11264,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C3F.abvs
+-Encoding: 65588 -1 140
++Encoding: 65588 -1 137
+ Width: 473
+ VWidth: 819
+ GlyphClass: 2
+@@ -11392,7 +11334,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C16_U0C3F.abvs
+-Encoding: 65589 -1 141
++Encoding: 65589 -1 138
+ Width: 738
+ VWidth: 819
+ GlyphClass: 2
+@@ -11492,7 +11434,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C17_U0C3F.abvs
+-Encoding: 65590 -1 142
++Encoding: 65590 -1 139
+ Width: 526
+ VWidth: 819
+ GlyphClass: 2
+@@ -11544,7 +11486,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C18_U0C3F.abvs
+-Encoding: 65591 -1 143
++Encoding: 65591 -1 140
+ Width: 944
+ VWidth: 819
+ GlyphClass: 2
+@@ -11644,7 +11586,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C19_U0C3F.abvs
+-Encoding: 65592 -1 144
++Encoding: 65592 -1 141
+ Width: 618
+ VWidth: 819
+ GlyphClass: 2
+@@ -11738,7 +11680,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1A_U0C3F.abvs
+-Encoding: 65593 -1 145
++Encoding: 65593 -1 142
+ Width: 639
+ VWidth: 819
+ GlyphClass: 2
+@@ -11806,7 +11748,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1B_U0C3F.abvs
+-Encoding: 65594 -1 146
++Encoding: 65594 -1 143
+ Width: 639
+ VWidth: 819
+ GlyphClass: 2
+@@ -11879,7 +11821,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1C_U0C3F.abvs
+-Encoding: 65595 -1 147
++Encoding: 65595 -1 144
+ Width: 666
+ VWidth: 819
+ GlyphClass: 2
+@@ -11969,7 +11911,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1D_U0C3F.abvs
+-Encoding: 65596 -1 148
++Encoding: 65596 -1 145
+ Width: 1290
+ VWidth: 819
+ GlyphClass: 2
+@@ -12058,7 +12000,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1E_U0C3F.abvs
+-Encoding: 65597 -1 149
++Encoding: 65597 -1 146
+ Width: 810
+ VWidth: 819
+ GlyphClass: 2
+@@ -12160,7 +12102,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1F_U0C3F.abvs
+-Encoding: 65598 -1 150
++Encoding: 65598 -1 147
+ Width: 742
+ VWidth: 819
+ GlyphClass: 2
+@@ -12248,7 +12190,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C20_U0C3F.abvs
+-Encoding: 65599 -1 151
++Encoding: 65599 -1 148
+ Width: 544
+ VWidth: 819
+ GlyphClass: 2
+@@ -12314,7 +12256,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C21_U0C3F.abvs
+-Encoding: 65600 -1 152
++Encoding: 65600 -1 149
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -12400,7 +12342,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C22_U0C3F.abvs
+-Encoding: 65601 -1 153
++Encoding: 65601 -1 150
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -12492,7 +12434,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C23_U0C3F.abvs
+-Encoding: 65602 -1 154
++Encoding: 65602 -1 151
+ Width: 761
+ VWidth: 819
+ GlyphClass: 2
+@@ -12594,7 +12536,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C24_U0C3F.abvs
+-Encoding: 65603 -1 155
++Encoding: 65603 -1 152
+ Width: 676
+ VWidth: 819
+ GlyphClass: 2
+@@ -12680,7 +12622,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C25_U0C3F.abvs
+-Encoding: 65604 -1 156
++Encoding: 65604 -1 153
+ Width: 651
+ VWidth: 819
+ GlyphClass: 2
+@@ -12763,7 +12705,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C26_U0C3F.abvs
+-Encoding: 65605 -1 157
++Encoding: 65605 -1 154
+ Width: 651
+ VWidth: 819
+ GlyphClass: 2
+@@ -12830,7 +12772,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C27_U0C3F.abvs
+-Encoding: 65606 -1 158
++Encoding: 65606 -1 155
+ Width: 651
+ VWidth: 819
+ GlyphClass: 2
+@@ -12904,7 +12846,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C28_U0C3F.abvs
+-Encoding: 65607 -1 159
++Encoding: 65607 -1 156
+ Width: 608
+ VWidth: 819
+ GlyphClass: 2
+@@ -12964,7 +12906,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2A_U0C3F.abvs
+-Encoding: 65608 -1 160
++Encoding: 65608 -1 157
+ Width: 572
+ VWidth: 819
+ GlyphClass: 2
+@@ -13042,7 +12984,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2B_U0C3F.abvs
+-Encoding: 65609 -1 161
++Encoding: 65609 -1 158
+ Width: 577
+ VWidth: 819
+ GlyphClass: 2
+@@ -13126,7 +13068,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2C_U0C3F.abvs
+-Encoding: 65610 -1 162
++Encoding: 65610 -1 159
+ Width: 703
+ VWidth: 819
+ GlyphClass: 2
+@@ -13202,7 +13144,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2D_U0C3F.abvs
+-Encoding: 65611 -1 163
++Encoding: 65611 -1 160
+ Width: 703
+ VWidth: 819
+ GlyphClass: 2
+@@ -13284,7 +13226,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2E_U0C3F.abvs
+-Encoding: 65612 -1 164
++Encoding: 65612 -1 161
+ Width: 956
+ VWidth: 819
+ GlyphClass: 2
+@@ -13365,7 +13307,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2F_U0C3F.abvs
+-Encoding: 65613 -1 165
++Encoding: 65613 -1 162
+ Width: 1288
+ VWidth: 819
+ GlyphClass: 2
+@@ -13427,7 +13369,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C30_U0C3F.abvs
+-Encoding: 65614 -1 166
++Encoding: 65614 -1 163
+ Width: 545
+ VWidth: 819
+ GlyphClass: 2
+@@ -13483,7 +13425,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C31_U0C3F.abvs
+-Encoding: 65615 -1 167
++Encoding: 65615 -1 164
+ Width: 756
+ VWidth: 819
+ GlyphClass: 2
+@@ -13584,7 +13526,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C32_U0C3F.abvs
+-Encoding: 65616 -1 168
++Encoding: 65616 -1 165
+ Width: 613
+ VWidth: 819
+ GlyphClass: 2
+@@ -13650,7 +13592,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C33_U0C3F.abvs
+-Encoding: 65617 -1 169
++Encoding: 65617 -1 166
+ Width: 588
+ VWidth: 819
+ GlyphClass: 2
+@@ -13733,7 +13675,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C35_U0C3F.abvs
+-Encoding: 65618 -1 170
++Encoding: 65618 -1 167
+ Width: 588
+ VWidth: 819
+ GlyphClass: 2
+@@ -13799,7 +13741,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C36_U0C3F.abvs
+-Encoding: 65619 -1 171
++Encoding: 65619 -1 168
+ Width: 503
+ VWidth: 819
+ GlyphClass: 2
+@@ -13875,7 +13817,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C37_U0C3F.abvs
+-Encoding: 65620 -1 172
++Encoding: 65620 -1 169
+ Width: 600
+ VWidth: 819
+ GlyphClass: 2
+@@ -13960,7 +13902,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C3F.abvs
+-Encoding: 65621 -1 173
++Encoding: 65621 -1 170
+ Width: 590
+ VWidth: 819
+ GlyphClass: 2
+@@ -14032,7 +13974,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C39_U0C3F.abvs
+-Encoding: 65622 -1 174
++Encoding: 65622 -1 171
+ Width: 882
+ VWidth: 819
+ GlyphClass: 2
+@@ -14135,7 +14077,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C15_U0C3F_U0C37_U0C4D.akhn
+-Encoding: 65623 -1 175
++Encoding: 65623 -1 172
+ Width: 511
+ VWidth: 819
+ GlyphClass: 2
+@@ -14233,7 +14175,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C40.abvs
+-Encoding: 65624 -1 176
++Encoding: 65624 -1 173
+ Width: 473
+ VWidth: 819
+ GlyphClass: 2
+@@ -14317,7 +14259,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C16_U0C40.abvs
+-Encoding: 65625 -1 177
++Encoding: 65625 -1 174
+ Width: 734
+ VWidth: 819
+ GlyphClass: 2
+@@ -14431,7 +14373,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C17_U0C40.abvs
+-Encoding: 65626 -1 178
++Encoding: 65626 -1 175
+ Width: 524
+ VWidth: 819
+ GlyphClass: 2
+@@ -14496,7 +14438,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C18_U0C40.abvs
+-Encoding: 65627 -1 179
++Encoding: 65627 -1 176
+ Width: 958
+ VWidth: 819
+ GlyphClass: 2
+@@ -14609,7 +14551,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C19_U0C40.abvs
+-Encoding: 65628 -1 180
++Encoding: 65628 -1 177
+ Width: 618
+ VWidth: 819
+ GlyphClass: 2
+@@ -14717,7 +14659,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1A_U0C40.abvs
+-Encoding: 65629 -1 181
++Encoding: 65629 -1 178
+ Width: 639
+ VWidth: 819
+ GlyphClass: 2
+@@ -14799,7 +14741,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1B_U0C40.abvs
+-Encoding: 65630 -1 182
++Encoding: 65630 -1 179
+ Width: 639
+ VWidth: 819
+ GlyphClass: 2
+@@ -14885,7 +14827,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1C_U0C40.abvs
+-Encoding: 65631 -1 183
++Encoding: 65631 -1 180
+ Width: 664
+ VWidth: 819
+ GlyphClass: 2
+@@ -14989,7 +14931,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1D_U0C40.abvs
+-Encoding: 65632 -1 184
++Encoding: 65632 -1 181
+ Width: 1290
+ VWidth: 819
+ GlyphClass: 2
+@@ -15092,7 +15034,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1E_U0C40.abvs
+-Encoding: 65633 -1 185
++Encoding: 65633 -1 182
+ Width: 810
+ VWidth: 819
+ GlyphClass: 2
+@@ -15207,7 +15149,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1F_U0C40.abvs
+-Encoding: 65634 -1 186
++Encoding: 65634 -1 183
+ Width: 742
+ VWidth: 819
+ GlyphClass: 2
+@@ -15309,7 +15251,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C20_U0C40.abvs
+-Encoding: 65635 -1 187
++Encoding: 65635 -1 184
+ Width: 544
+ VWidth: 819
+ GlyphClass: 2
+@@ -15389,7 +15331,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C21_U0C40.abvs
+-Encoding: 65636 -1 188
++Encoding: 65636 -1 185
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -15489,7 +15431,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C22_U0C40.abvs
+-Encoding: 65637 -1 189
++Encoding: 65637 -1 186
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -15595,7 +15537,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C23_U0C40.abvs
+-Encoding: 65638 -1 190
++Encoding: 65638 -1 187
+ Width: 761
+ VWidth: 819
+ GlyphClass: 2
+@@ -15711,7 +15653,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C24_U0C40.abvs
+-Encoding: 65639 -1 191
++Encoding: 65639 -1 188
+ Width: 676
+ VWidth: 819
+ GlyphClass: 2
+@@ -15810,7 +15752,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C25_U0C40.abvs
+-Encoding: 65640 -1 192
++Encoding: 65640 -1 189
+ Width: 651
+ VWidth: 819
+ GlyphClass: 2
+@@ -15905,7 +15847,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C26_U0C40.abvs
+-Encoding: 65641 -1 193
++Encoding: 65641 -1 190
+ Width: 650
+ VWidth: 819
+ GlyphClass: 2
+@@ -15988,7 +15930,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C27_U0C40.abvs
+-Encoding: 65642 -1 194
++Encoding: 65642 -1 191
+ Width: 651
+ VWidth: 819
+ GlyphClass: 2
+@@ -16075,7 +16017,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C28_U0C40.abvs
+-Encoding: 65643 -1 195
++Encoding: 65643 -1 192
+ Width: 608
+ VWidth: 819
+ GlyphClass: 2
+@@ -16149,7 +16091,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2A_U0C40.abvs
+-Encoding: 65644 -1 196
++Encoding: 65644 -1 193
+ Width: 580
+ VWidth: 819
+ GlyphClass: 2
+@@ -16241,7 +16183,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2B_U0C40.abvs
+-Encoding: 65645 -1 197
++Encoding: 65645 -1 194
+ Width: 586
+ VWidth: 819
+ GlyphClass: 2
+@@ -16339,7 +16281,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2C_U0C40.abvs
+-Encoding: 65646 -1 198
++Encoding: 65646 -1 195
+ Width: 703
+ VWidth: 819
+ GlyphClass: 2
+@@ -16429,7 +16371,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2D_U0C40.abvs
+-Encoding: 65647 -1 199
++Encoding: 65647 -1 196
+ Width: 701
+ VWidth: 819
+ GlyphClass: 2
+@@ -16525,7 +16467,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2E_U0C40.abvs
+-Encoding: 65648 -1 200
++Encoding: 65648 -1 197
+ Width: 963
+ VWidth: 819
+ GlyphClass: 2
+@@ -16620,7 +16562,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2F_U0C40.abvs
+-Encoding: 65649 -1 201
++Encoding: 65649 -1 198
+ Width: 1649
+ VWidth: 819
+ GlyphClass: 2
+@@ -16708,7 +16650,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C30_U0C40.abvs
+-Encoding: 65650 -1 202
++Encoding: 65650 -1 199
+ Width: 545
+ VWidth: 819
+ GlyphClass: 2
+@@ -16778,7 +16720,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C31_U0C40.abvs
+-Encoding: 65651 -1 203
++Encoding: 65651 -1 200
+ Width: 757
+ VWidth: 819
+ GlyphClass: 2
+@@ -16893,7 +16835,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C32_U0C40.abvs
+-Encoding: 65652 -1 204
++Encoding: 65652 -1 201
+ Width: 613
+ VWidth: 819
+ GlyphClass: 2
+@@ -16973,7 +16915,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C33_U0C40.abvs
+-Encoding: 65653 -1 205
++Encoding: 65653 -1 202
+ Width: 590
+ VWidth: 819
+ GlyphClass: 2
+@@ -17071,7 +17013,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C35_U0C40.abvs
+-Encoding: 65654 -1 206
++Encoding: 65654 -1 203
+ Width: 587
+ VWidth: 819
+ GlyphClass: 2
+@@ -17151,7 +17093,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C36_U0C40.abvs
+-Encoding: 65655 -1 207
++Encoding: 65655 -1 204
+ Width: 485
+ VWidth: 819
+ GlyphClass: 2
+@@ -17241,7 +17183,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C37_U0C40.abvs
+-Encoding: 65656 -1 208
++Encoding: 65656 -1 205
+ Width: 602
+ VWidth: 819
+ GlyphClass: 2
+@@ -17341,7 +17283,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C40.abvs
+-Encoding: 65657 -1 209
++Encoding: 65657 -1 206
+ Width: 596
+ VWidth: 819
+ GlyphClass: 2
+@@ -17427,7 +17369,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C39_U0C40.abvs
+-Encoding: 65658 -1 210
++Encoding: 65658 -1 207
+ Width: 882
+ VWidth: 819
+ GlyphClass: 2
+@@ -17543,7 +17485,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C15_U0C40_U0C37_U0C4D.akhn
+-Encoding: 65659 -1 211
++Encoding: 65659 -1 208
+ Width: 511
+ VWidth: 819
+ GlyphClass: 2
+@@ -17654,7 +17596,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C46.abvs
+-Encoding: 65660 -1 212
++Encoding: 65660 -1 209
+ Width: 473
+ VWidth: 819
+ GlyphClass: 2
+@@ -17709,7 +17651,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C16_U0C46.abvs
+-Encoding: 65661 -1 213
++Encoding: 65661 -1 210
+ Width: 707
+ VWidth: 819
+ GlyphClass: 2
+@@ -17803,7 +17745,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C17_U0C46.abvs
+-Encoding: 65662 -1 214
++Encoding: 65662 -1 211
+ Width: 519
+ VWidth: 819
+ GlyphClass: 2
+@@ -17842,7 +17784,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C18_U0C46.abvs
+-Encoding: 65663 -1 215
++Encoding: 65663 -1 212
+ Width: 950
+ VWidth: 819
+ GlyphClass: 2
+@@ -17927,7 +17869,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C19_U0C46.abvs
+-Encoding: 65664 -1 216
++Encoding: 65664 -1 213
+ Width: 618
+ VWidth: 819
+ GlyphClass: 2
+@@ -18007,7 +17949,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1A_U0C46.abvs
+-Encoding: 65665 -1 217
++Encoding: 65665 -1 214
+ Width: 641
+ VWidth: 819
+ GlyphClass: 2
+@@ -18071,7 +18013,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1B_U0C46.abvs
+-Encoding: 65666 -1 218
++Encoding: 65666 -1 215
+ Width: 641
+ VWidth: 819
+ GlyphClass: 2
+@@ -18141,7 +18083,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1C_U0C46.abvs
+-Encoding: 65667 -1 219
++Encoding: 65667 -1 216
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -18228,7 +18170,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1D_U0C46.abvs
+-Encoding: 65668 -1 220
++Encoding: 65668 -1 217
+ Width: 1280
+ VWidth: 819
+ GlyphClass: 2
+@@ -18309,7 +18251,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1E_U0C46.abvs
+-Encoding: 65669 -1 221
++Encoding: 65669 -1 218
+ Width: 827
+ VWidth: 819
+ GlyphClass: 2
+@@ -18397,7 +18339,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1F_U0C46.abvs
+-Encoding: 65670 -1 222
++Encoding: 65670 -1 219
+ Width: 742
+ VWidth: 819
+ GlyphClass: 2
+@@ -18471,7 +18413,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C20_U0C46.abvs
+-Encoding: 65671 -1 223
++Encoding: 65671 -1 220
+ Width: 540
+ VWidth: 819
+ GlyphClass: 2
+@@ -18524,7 +18466,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C21_U0C46.abvs
+-Encoding: 65672 -1 224
++Encoding: 65672 -1 221
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -18596,7 +18538,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C22_U0C46.abvs
+-Encoding: 65673 -1 225
++Encoding: 65673 -1 222
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -18674,7 +18616,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C23_U0C46.abvs
+-Encoding: 65674 -1 226
++Encoding: 65674 -1 223
+ Width: 761
+ VWidth: 819
+ GlyphClass: 2
+@@ -18761,7 +18703,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C24_U0C46.abvs
+-Encoding: 65675 -1 227
++Encoding: 65675 -1 224
+ Width: 655
+ VWidth: 819
+ GlyphClass: 2
+@@ -18840,7 +18782,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C25_U0C46.abvs
+-Encoding: 65676 -1 228
++Encoding: 65676 -1 225
+ Width: 644
+ VWidth: 819
+ GlyphClass: 2
+@@ -18909,7 +18851,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C26_U0C46.abvs
+-Encoding: 65677 -1 229
++Encoding: 65677 -1 226
+ Width: 643
+ VWidth: 819
+ GlyphClass: 2
+@@ -18966,7 +18908,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C27_U0C46.abvs
+-Encoding: 65678 -1 230
++Encoding: 65678 -1 227
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -19029,7 +18971,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C28_U0C46.abvs
+-Encoding: 65679 -1 231
++Encoding: 65679 -1 228
+ Width: 606
+ VWidth: 819
+ GlyphClass: 2
+@@ -19085,7 +19027,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2A_U0C46.abvs
+-Encoding: 65680 -1 232
++Encoding: 65680 -1 229
+ Width: 572
+ VWidth: 819
+ GlyphClass: 2
+@@ -19149,7 +19091,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2B_U0C46.abvs
+-Encoding: 65681 -1 233
++Encoding: 65681 -1 230
+ Width: 577
+ VWidth: 819
+ GlyphClass: 2
+@@ -19219,7 +19161,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2C_U0C46.abvs
+-Encoding: 65682 -1 234
++Encoding: 65682 -1 231
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -19292,7 +19234,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2D_U0C46.abvs
+-Encoding: 65683 -1 235
++Encoding: 65683 -1 232
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -19371,7 +19313,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2E_U0C46.abvs
+-Encoding: 65684 -1 236
++Encoding: 65684 -1 233
+ Width: 956
+ VWidth: 819
+ GlyphClass: 2
+@@ -19446,7 +19388,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2F_U0C46.abvs
+-Encoding: 65685 -1 237
++Encoding: 65685 -1 234
+ Width: 1240
+ VWidth: 819
+ GlyphClass: 2
+@@ -19523,7 +19465,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C30_U0C46.abvs
+-Encoding: 65686 -1 238
++Encoding: 65686 -1 235
+ Width: 540
+ VWidth: 819
+ GlyphClass: 2
+@@ -19570,7 +19512,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C31_U0C46.abvs
+-Encoding: 65687 -1 239
++Encoding: 65687 -1 236
+ Width: 757
+ VWidth: 819
+ GlyphClass: 2
+@@ -19656,7 +19598,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C32_U0C46.abvs
+-Encoding: 65688 -1 240
++Encoding: 65688 -1 237
+ Width: 668
+ VWidth: 819
+ GlyphClass: 2
+@@ -19719,7 +19661,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C33_U0C46.abvs
+-Encoding: 65689 -1 241
++Encoding: 65689 -1 238
+ Width: 563
+ VWidth: 819
+ GlyphClass: 2
+@@ -19798,7 +19740,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C35_U0C46.abvs
+-Encoding: 65690 -1 242
++Encoding: 65690 -1 239
+ Width: 576
+ VWidth: 819
+ GlyphClass: 2
+@@ -19859,7 +19801,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C36_U0C46.abvs
+-Encoding: 65691 -1 243
++Encoding: 65691 -1 240
+ Width: 500
+ VWidth: 819
+ GlyphClass: 2
+@@ -19930,7 +19872,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C37_U0C46.abvs
+-Encoding: 65692 -1 244
++Encoding: 65692 -1 241
+ Width: 600
+ VWidth: 819
+ GlyphClass: 2
+@@ -20001,7 +19943,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C46.abvs
+-Encoding: 65693 -1 245
++Encoding: 65693 -1 242
+ Width: 590
+ VWidth: 819
+ GlyphClass: 2
+@@ -20059,7 +20001,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C39_U0C46.abvs
+-Encoding: 65694 -1 246
++Encoding: 65694 -1 243
+ Width: 882
+ VWidth: 819
+ GlyphClass: 2
+@@ -20147,7 +20089,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C15_U0C46_U0C37_U0C4D.akhn
+-Encoding: 65695 -1 247
++Encoding: 65695 -1 244
+ Width: 511
+ VWidth: 819
+ GlyphClass: 2
+@@ -20230,7 +20172,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C47.abvs
+-Encoding: 65696 -1 248
++Encoding: 65696 -1 245
+ Width: 473
+ VWidth: 819
+ GlyphClass: 2
+@@ -20300,7 +20242,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C16_U0C47.abvs
+-Encoding: 65697 -1 249
++Encoding: 65697 -1 246
+ Width: 707
+ VWidth: 819
+ GlyphClass: 2
+@@ -20409,7 +20351,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C17_U0C47.abvs
+-Encoding: 65698 -1 250
++Encoding: 65698 -1 247
+ Width: 519
+ VWidth: 819
+ GlyphClass: 2
+@@ -20463,7 +20405,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C18_U0C47.abvs
+-Encoding: 65699 -1 251
++Encoding: 65699 -1 248
+ Width: 957
+ VWidth: 819
+ GlyphClass: 2
+@@ -20563,7 +20505,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C19_U0C47.abvs
+-Encoding: 65700 -1 252
++Encoding: 65700 -1 249
+ Width: 620
+ VWidth: 819
+ GlyphClass: 2
+@@ -20659,7 +20601,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1A_U0C47.abvs
+-Encoding: 65701 -1 253
++Encoding: 65701 -1 250
+ Width: 641
+ VWidth: 819
+ GlyphClass: 2
+@@ -20738,7 +20680,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1B_U0C47.abvs
+-Encoding: 65702 -1 254
++Encoding: 65702 -1 251
+ Width: 641
+ VWidth: 819
+ GlyphClass: 2
+@@ -20823,7 +20765,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1C_U0C47.abvs
+-Encoding: 65703 -1 255
++Encoding: 65703 -1 252
+ Width: 647
+ VWidth: 819
+ GlyphClass: 2
+@@ -20925,7 +20867,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1D_U0C47.abvs
+-Encoding: 65704 -1 256
++Encoding: 65704 -1 253
+ Width: 1288
+ VWidth: 819
+ GlyphClass: 2
+@@ -21021,7 +20963,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1E_U0C47.abvs
+-Encoding: 65705 -1 257
++Encoding: 65705 -1 254
+ Width: 827
+ VWidth: 819
+ GlyphClass: 2
+@@ -21124,7 +21066,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1F_U0C47.abvs
+-Encoding: 65706 -1 258
++Encoding: 65706 -1 255
+ Width: 742
+ VWidth: 819
+ GlyphClass: 2
+@@ -21213,7 +21155,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C20_U0C47.abvs
+-Encoding: 65707 -1 259
++Encoding: 65707 -1 256
+ Width: 540
+ VWidth: 819
+ GlyphClass: 2
+@@ -21281,7 +21223,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C21_U0C47.abvs
+-Encoding: 65708 -1 260
++Encoding: 65708 -1 257
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -21368,7 +21310,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C22_U0C47.abvs
+-Encoding: 65709 -1 261
++Encoding: 65709 -1 258
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -21461,7 +21403,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C23_U0C47.abvs
+-Encoding: 65710 -1 262
++Encoding: 65710 -1 259
+ Width: 761
+ VWidth: 819
+ GlyphClass: 2
+@@ -21563,7 +21505,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C24_U0C47.abvs
+-Encoding: 65711 -1 263
++Encoding: 65711 -1 260
+ Width: 655
+ VWidth: 819
+ GlyphClass: 2
+@@ -21657,7 +21599,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C25_U0C47.abvs
+-Encoding: 65712 -1 264
++Encoding: 65712 -1 261
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -21737,7 +21679,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C26_U0C47.abvs
+-Encoding: 65713 -1 265
++Encoding: 65713 -1 262
+ Width: 643
+ VWidth: 819
+ GlyphClass: 2
+@@ -21806,7 +21748,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C27_U0C47.abvs
+-Encoding: 65714 -1 266
++Encoding: 65714 -1 263
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -21880,7 +21822,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C28_U0C47.abvs
+-Encoding: 65715 -1 267
++Encoding: 65715 -1 264
+ Width: 606
+ VWidth: 819
+ GlyphClass: 2
+@@ -21951,7 +21893,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2A_U0C47.abvs
+-Encoding: 65716 -1 268
++Encoding: 65716 -1 265
+ Width: 572
+ VWidth: 819
+ GlyphClass: 2
+@@ -22030,7 +21972,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2B_U0C47.abvs
+-Encoding: 65717 -1 269
++Encoding: 65717 -1 266
+ Width: 579
+ VWidth: 819
+ GlyphClass: 2
+@@ -22115,7 +22057,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2C_U0C47.abvs
+-Encoding: 65718 -1 270
++Encoding: 65718 -1 267
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -22203,7 +22145,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2D_U0C47.abvs
+-Encoding: 65719 -1 271
++Encoding: 65719 -1 268
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -22297,7 +22239,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2E_U0C47.abvs
+-Encoding: 65720 -1 272
++Encoding: 65720 -1 269
+ Width: 957
+ VWidth: 819
+ GlyphClass: 2
+@@ -22388,7 +22330,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2F_U0C47.abvs
+-Encoding: 65721 -1 273
++Encoding: 65721 -1 270
+ Width: 1240
+ VWidth: 819
+ GlyphClass: 2
+@@ -22480,7 +22422,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C30_U0C47.abvs
+-Encoding: 65722 -1 274
++Encoding: 65722 -1 271
+ Width: 540
+ VWidth: 819
+ GlyphClass: 2
+@@ -22542,7 +22484,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C31_U0C47.abvs
+-Encoding: 65723 -1 275
++Encoding: 65723 -1 272
+ Width: 757
+ VWidth: 819
+ GlyphClass: 2
+@@ -22644,7 +22586,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C32_U0C47.abvs
+-Encoding: 65724 -1 276
++Encoding: 65724 -1 273
+ Width: 666
+ VWidth: 819
+ GlyphClass: 2
+@@ -22722,7 +22664,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C33_U0C47.abvs
+-Encoding: 65725 -1 277
++Encoding: 65725 -1 274
+ Width: 561
+ VWidth: 819
+ GlyphClass: 2
+@@ -22816,7 +22758,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C35_U0C47.abvs
+-Encoding: 65726 -1 278
++Encoding: 65726 -1 275
+ Width: 576
+ VWidth: 819
+ GlyphClass: 2
+@@ -22892,7 +22834,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C36_U0C47.abvs
+-Encoding: 65727 -1 279
++Encoding: 65727 -1 276
+ Width: 501
+ VWidth: 819
+ GlyphClass: 2
+@@ -22978,7 +22920,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C37_U0C47.abvs
+-Encoding: 65728 -1 280
++Encoding: 65728 -1 277
+ Width: 600
+ VWidth: 819
+ GlyphClass: 2
+@@ -23064,7 +23006,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C47.abvs
+-Encoding: 65729 -1 281
++Encoding: 65729 -1 278
+ Width: 590
+ VWidth: 819
+ GlyphClass: 2
+@@ -23137,7 +23079,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C39_U0C47.abvs
+-Encoding: 65730 -1 282
++Encoding: 65730 -1 279
+ Width: 882
+ VWidth: 819
+ GlyphClass: 2
+@@ -23240,7 +23182,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C15_U0C47_U0C37_U0C4D.akhn
+-Encoding: 65731 -1 283
++Encoding: 65731 -1 280
+ Width: 511
+ VWidth: 819
+ GlyphClass: 2
+@@ -23339,7 +23281,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C4A.abvs
+-Encoding: 65732 -1 284
++Encoding: 65732 -1 281
+ Width: 734
+ VWidth: 819
+ GlyphClass: 2
+@@ -23424,7 +23366,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C16_U0C4A.abvs
+-Encoding: 65733 -1 285
++Encoding: 65733 -1 282
+ Width: 950
+ VWidth: 819
+ GlyphClass: 2
+@@ -23545,7 +23487,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C17_U0C4A.abvs
+-Encoding: 65734 -1 286
++Encoding: 65734 -1 283
+ Width: 798
+ VWidth: 819
+ GlyphClass: 2
+@@ -23613,7 +23555,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C18_U0C4A.abvs
+-Encoding: 65735 -1 287
++Encoding: 65735 -1 284
+ Width: 1338
+ VWidth: 819
+ GlyphClass: 2
+@@ -23712,7 +23654,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C19_U0C4A.abvs
+-Encoding: 65736 -1 288
++Encoding: 65736 -1 285
+ Width: 920
+ VWidth: 819
+ GlyphClass: 2
+@@ -23822,7 +23764,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1A_U0C4A.abvs
+-Encoding: 65737 -1 289
++Encoding: 65737 -1 286
+ Width: 860
+ VWidth: 819
+ GlyphClass: 2
+@@ -23913,7 +23855,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1B_U0C4A.abvs
+-Encoding: 65738 -1 290
++Encoding: 65738 -1 287
+ Width: 874
+ VWidth: 819
+ GlyphClass: 2
+@@ -24012,7 +23954,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1C_U0C4A.abvs
+-Encoding: 65739 -1 291
++Encoding: 65739 -1 288
+ Width: 923
+ VWidth: 819
+ GlyphClass: 2
+@@ -24128,7 +24070,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1D_U0C4A.abvs
+-Encoding: 65740 -1 292
++Encoding: 65740 -1 289
+ Width: 1655
+ VWidth: 819
+ GlyphClass: 2
+@@ -24224,7 +24166,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1E_U0C4A.abvs
+-Encoding: 65741 -1 293
++Encoding: 65741 -1 290
+ Width: 1070
+ VWidth: 819
+ GlyphClass: 2
+@@ -24342,7 +24284,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1F_U0C4A.abvs
+-Encoding: 65742 -1 294
++Encoding: 65742 -1 291
+ Width: 990
+ VWidth: 819
+ GlyphClass: 2
+@@ -24445,7 +24387,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C20_U0C4A.abvs
+-Encoding: 65743 -1 295
++Encoding: 65743 -1 292
+ Width: 816
+ VWidth: 819
+ GlyphClass: 2
+@@ -24528,7 +24470,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C21_U0C4A.abvs
+-Encoding: 65744 -1 296
++Encoding: 65744 -1 293
+ Width: 892
+ VWidth: 819
+ GlyphClass: 2
+@@ -24630,7 +24572,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C22_U0C4A.abvs
+-Encoding: 65745 -1 297
++Encoding: 65745 -1 294
+ Width: 844
+ VWidth: 819
+ GlyphClass: 2
+@@ -24738,7 +24680,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C23_U0C4A.abvs
+-Encoding: 65746 -1 298
++Encoding: 65746 -1 295
+ Width: 1008
+ VWidth: 819
+ GlyphClass: 2
+@@ -24855,7 +24797,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C24_U0C4A.abvs
+-Encoding: 65747 -1 299
++Encoding: 65747 -1 296
+ Width: 903
+ VWidth: 819
+ GlyphClass: 2
+@@ -24961,7 +24903,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C25_U0C4A.abvs
+-Encoding: 65748 -1 300
++Encoding: 65748 -1 297
+ Width: 844
+ VWidth: 819
+ GlyphClass: 2
+@@ -25060,7 +25002,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C26_U0C4A.abvs
+-Encoding: 65749 -1 301
++Encoding: 65749 -1 298
+ Width: 844
+ VWidth: 819
+ GlyphClass: 2
+@@ -25147,7 +25089,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C27_U0C4A.abvs
+-Encoding: 65750 -1 302
++Encoding: 65750 -1 299
+ Width: 844
+ VWidth: 819
+ GlyphClass: 2
+@@ -25240,7 +25182,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C28_U0C4A.abvs
+-Encoding: 65751 -1 303
++Encoding: 65751 -1 300
+ Width: 836
+ VWidth: 819
+ GlyphClass: 2
+@@ -25324,7 +25266,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2A_U0C4A.abvs
+-Encoding: 65752 -1 304
++Encoding: 65752 -1 301
+ Width: 903
+ VWidth: 819
+ GlyphClass: 2
+@@ -25418,7 +25360,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2B_U0C4A.abvs
+-Encoding: 65753 -1 305
++Encoding: 65753 -1 302
+ Width: 903
+ VWidth: 819
+ GlyphClass: 2
+@@ -25518,7 +25460,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2C_U0C4A.abvs
+-Encoding: 65754 -1 306
++Encoding: 65754 -1 303
+ Width: 920
+ VWidth: 819
+ GlyphClass: 2
+@@ -25618,7 +25560,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2D_U0C4A.abvs
+-Encoding: 65755 -1 307
++Encoding: 65755 -1 304
+ Width: 881
+ VWidth: 819
+ GlyphClass: 2
+@@ -25724,7 +25666,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2E_U0C4A.abvs
+-Encoding: 65756 -1 308
++Encoding: 65756 -1 305
+ Width: 1338
+ VWidth: 819
+ GlyphClass: 2
+@@ -25814,7 +25756,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2F_U0C4A.abvs
+-Encoding: 65757 -1 309
++Encoding: 65757 -1 306
+ Width: 1607
+ VWidth: 819
+ GlyphClass: 2
+@@ -25906,7 +25848,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C30_U0C4A.abvs
+-Encoding: 65758 -1 310
++Encoding: 65758 -1 307
+ Width: 788
+ VWidth: 819
+ GlyphClass: 2
+@@ -25983,7 +25925,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C31_U0C4A.abvs
+-Encoding: 65759 -1 311
++Encoding: 65759 -1 308
+ Width: 1064
+ VWidth: 819
+ GlyphClass: 2
+@@ -26100,7 +26042,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C32_U0C4A.abvs
+-Encoding: 65760 -1 312
++Encoding: 65760 -1 309
+ Width: 911
+ VWidth: 819
+ GlyphClass: 2
+@@ -26191,7 +26133,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C33_U0C4A.abvs
+-Encoding: 65761 -1 313
++Encoding: 65761 -1 310
+ Width: 806
+ VWidth: 819
+ GlyphClass: 2
+@@ -26299,7 +26241,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C35_U0C4A.abvs
+-Encoding: 65762 -1 314
++Encoding: 65762 -1 311
+ Width: 832
+ VWidth: 819
+ GlyphClass: 2
+@@ -26389,7 +26331,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C36_U0C4A.abvs
+-Encoding: 65763 -1 315
++Encoding: 65763 -1 312
+ Width: 753
+ VWidth: 819
+ GlyphClass: 2
+@@ -26487,7 +26429,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C37_U0C4A.abvs
+-Encoding: 65764 -1 316
++Encoding: 65764 -1 313
+ Width: 908
+ VWidth: 819
+ GlyphClass: 2
+@@ -26588,7 +26530,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C4A.abvs
+-Encoding: 65765 -1 317
++Encoding: 65765 -1 314
+ Width: 901
+ VWidth: 819
+ GlyphClass: 2
+@@ -26676,7 +26618,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C39_U0C4A.abvs
+-Encoding: 65766 -1 318
++Encoding: 65766 -1 315
+ Width: 1267
+ VWidth: 819
+ GlyphClass: 2
+@@ -26803,7 +26745,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C15_U0C4A_U0C37_U0C4D.akhn
+-Encoding: 65767 -1 319
++Encoding: 65767 -1 316
+ Width: 750
+ VWidth: 819
+ GlyphClass: 2
+@@ -26916,7 +26858,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C4B.abvs
+-Encoding: 65768 -1 320
++Encoding: 65768 -1 317
+ Width: 734
+ VWidth: 819
+ GlyphClass: 2
+@@ -27015,7 +26957,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C16_U0C4B.abvs
+-Encoding: 65769 -1 321
++Encoding: 65769 -1 318
+ Width: 944
+ VWidth: 819
+ GlyphClass: 2
+@@ -27151,7 +27093,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C17_U0C4B.abvs
+-Encoding: 65770 -1 322
++Encoding: 65770 -1 319
+ Width: 798
+ VWidth: 819
+ GlyphClass: 2
+@@ -27233,7 +27175,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C18_U0C4B.abvs
+-Encoding: 65771 -1 323
++Encoding: 65771 -1 320
+ Width: 1319
+ VWidth: 819
+ GlyphClass: 2
+@@ -27342,7 +27284,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C19_U0C4B.abvs
+-Encoding: 65772 -1 324
++Encoding: 65772 -1 321
+ Width: 920
+ VWidth: 819
+ GlyphClass: 2
+@@ -27467,7 +27409,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1A_U0C4B.abvs
+-Encoding: 65773 -1 325
++Encoding: 65773 -1 322
+ Width: 859
+ VWidth: 819
+ GlyphClass: 2
+@@ -27572,7 +27514,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1B_U0C4B.abvs
+-Encoding: 65774 -1 326
++Encoding: 65774 -1 323
+ Width: 874
+ VWidth: 819
+ GlyphClass: 2
+@@ -27685,7 +27627,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1C_U0C4B.abvs
+-Encoding: 65775 -1 327
++Encoding: 65775 -1 324
+ Width: 922
+ VWidth: 819
+ GlyphClass: 2
+@@ -27816,7 +27758,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1D_U0C4B.abvs
+-Encoding: 65776 -1 328
++Encoding: 65776 -1 325
+ Width: 1649
+ VWidth: 819
+ GlyphClass: 2
+@@ -27925,7 +27867,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1E_U0C4B.abvs
+-Encoding: 65777 -1 329
++Encoding: 65777 -1 326
+ Width: 1063
+ VWidth: 819
+ GlyphClass: 2
+@@ -28057,7 +27999,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1F_U0C4B.abvs
+-Encoding: 65778 -1 330
++Encoding: 65778 -1 327
+ Width: 990
+ VWidth: 819
+ GlyphClass: 2
+@@ -28174,7 +28116,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C20_U0C4B.abvs
+-Encoding: 65779 -1 331
++Encoding: 65779 -1 328
+ Width: 816
+ VWidth: 819
+ GlyphClass: 2
+@@ -28271,7 +28213,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C21_U0C4B.abvs
+-Encoding: 65780 -1 332
++Encoding: 65780 -1 329
+ Width: 892
+ VWidth: 819
+ GlyphClass: 2
+@@ -28386,7 +28328,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C22_U0C4B.abvs
+-Encoding: 65781 -1 333
++Encoding: 65781 -1 330
+ Width: 844
+ VWidth: 819
+ GlyphClass: 2
+@@ -28508,7 +28450,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C23_U0C4B.abvs
+-Encoding: 65782 -1 334
++Encoding: 65782 -1 331
+ Width: 1008
+ VWidth: 819
+ GlyphClass: 2
+@@ -28639,7 +28581,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C24_U0C4B.abvs
+-Encoding: 65783 -1 335
++Encoding: 65783 -1 332
+ Width: 903
+ VWidth: 819
+ GlyphClass: 2
+@@ -28759,7 +28701,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C25_U0C4B.abvs
+-Encoding: 65784 -1 336
++Encoding: 65784 -1 333
+ Width: 844
+ VWidth: 819
+ GlyphClass: 2
+@@ -28872,7 +28814,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C26_U0C4B.abvs
+-Encoding: 65785 -1 337
++Encoding: 65785 -1 334
+ Width: 844
+ VWidth: 819
+ GlyphClass: 2
+@@ -28973,7 +28915,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C27_U0C4B.abvs
+-Encoding: 65786 -1 338
++Encoding: 65786 -1 335
+ Width: 843
+ VWidth: 819
+ GlyphClass: 2
+@@ -29080,7 +29022,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C28_U0C4B.abvs
+-Encoding: 65787 -1 339
++Encoding: 65787 -1 336
+ Width: 836
+ VWidth: 819
+ GlyphClass: 2
+@@ -29178,7 +29120,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2A_U0C4B.abvs
+-Encoding: 65788 -1 340
++Encoding: 65788 -1 337
+ Width: 907
+ VWidth: 819
+ GlyphClass: 2
+@@ -29287,7 +29229,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2B_U0C4B.abvs
+-Encoding: 65789 -1 341
++Encoding: 65789 -1 338
+ Width: 901
+ VWidth: 819
+ GlyphClass: 2
+@@ -29402,7 +29344,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2C_U0C4B.abvs
+-Encoding: 65790 -1 342
++Encoding: 65790 -1 339
+ Width: 920
+ VWidth: 819
+ GlyphClass: 2
+@@ -29517,7 +29459,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2D_U0C4B.abvs
+-Encoding: 65791 -1 343
++Encoding: 65791 -1 340
+ Width: 881
+ VWidth: 819
+ GlyphClass: 2
+@@ -29638,7 +29580,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2E_U0C4B.abvs
+-Encoding: 65792 -1 344
++Encoding: 65792 -1 341
+ Width: 1313
+ VWidth: 819
+ GlyphClass: 2
+@@ -29738,7 +29680,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2F_U0C4B.abvs
+-Encoding: 65793 -1 345
++Encoding: 65793 -1 342
+ Width: 1588
+ VWidth: 819
+ GlyphClass: 2
+@@ -29841,7 +29783,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C30_U0C4B.abvs
+-Encoding: 65794 -1 346
++Encoding: 65794 -1 343
+ Width: 788
+ VWidth: 819
+ GlyphClass: 2
+@@ -29932,7 +29874,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C31_U0C4B.abvs
+-Encoding: 65795 -1 347
++Encoding: 65795 -1 344
+ Width: 1058
+ VWidth: 819
+ GlyphClass: 2
+@@ -30062,7 +30004,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C32_U0C4B.abvs
+-Encoding: 65796 -1 348
++Encoding: 65796 -1 345
+ Width: 911
+ VWidth: 819
+ GlyphClass: 2
+@@ -30167,7 +30109,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C33_U0C4B.abvs
+-Encoding: 65797 -1 349
++Encoding: 65797 -1 346
+ Width: 806
+ VWidth: 819
+ GlyphClass: 2
+@@ -30290,7 +30232,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C35_U0C4B.abvs
+-Encoding: 65798 -1 350
++Encoding: 65798 -1 347
+ Width: 832
+ VWidth: 819
+ GlyphClass: 2
+@@ -30394,7 +30336,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C36_U0C4B.abvs
+-Encoding: 65799 -1 351
++Encoding: 65799 -1 348
+ Width: 753
+ VWidth: 819
+ GlyphClass: 2
+@@ -30507,7 +30449,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C37_U0C4B.abvs
+-Encoding: 65800 -1 352
++Encoding: 65800 -1 349
+ Width: 912
+ VWidth: 819
+ GlyphClass: 2
+@@ -30623,7 +30565,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C4B.abvs
+-Encoding: 65801 -1 353
++Encoding: 65801 -1 350
+ Width: 901
+ VWidth: 819
+ GlyphClass: 2
+@@ -30726,7 +30668,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C39_U0C4B.abvs
+-Encoding: 65802 -1 354
++Encoding: 65802 -1 351
+ Width: 1294
+ VWidth: 819
+ GlyphClass: 2
+@@ -30868,7 +30810,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C15_U0C4B_U0C37_U0C4D.akhn
+-Encoding: 65803 -1 355
++Encoding: 65803 -1 352
+ Width: 750
+ VWidth: 819
+ GlyphClass: 2
+@@ -30995,7 +30937,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C4C.abvs
+-Encoding: 65804 -1 356
++Encoding: 65804 -1 353
+ Width: 771
+ VWidth: 819
+ GlyphClass: 2
+@@ -31074,7 +31016,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C16_U0C4C.abvs
+-Encoding: 65805 -1 357
++Encoding: 65805 -1 354
+ Width: 960
+ VWidth: 819
+ GlyphClass: 2
+@@ -31192,7 +31134,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C17_U0C4C.abvs
+-Encoding: 65806 -1 358
++Encoding: 65806 -1 355
+ Width: 787
+ VWidth: 819
+ GlyphClass: 2
+@@ -31256,7 +31198,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C18_U0C4C.abvs
+-Encoding: 65807 -1 359
++Encoding: 65807 -1 356
+ Width: 1270
+ VWidth: 819
+ GlyphClass: 2
+@@ -31377,7 +31319,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C19_U0C4C.abvs
+-Encoding: 65808 -1 360
++Encoding: 65808 -1 357
+ Width: 1012
+ VWidth: 819
+ GlyphClass: 2
+@@ -31482,7 +31424,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1A_U0C4C.abvs
+-Encoding: 65809 -1 361
++Encoding: 65809 -1 358
+ Width: 904
+ VWidth: 819
+ GlyphClass: 2
+@@ -31570,7 +31512,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1B_U0C4C.abvs
+-Encoding: 65810 -1 362
++Encoding: 65810 -1 359
+ Width: 938
+ VWidth: 819
+ GlyphClass: 2
+@@ -31664,7 +31606,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1C_U0C4C.abvs
+-Encoding: 65811 -1 363
++Encoding: 65811 -1 360
+ Width: 924
+ VWidth: 819
+ GlyphClass: 2
+@@ -31769,7 +31711,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1D_U0C4C.abvs
+-Encoding: 65812 -1 364
++Encoding: 65812 -1 361
+ Width: 1607
+ VWidth: 819
+ GlyphClass: 2
+@@ -31880,7 +31822,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1E_U0C4C.abvs
+-Encoding: 65813 -1 365
++Encoding: 65813 -1 362
+ Width: 1222
+ VWidth: 819
+ GlyphClass: 2
+@@ -31992,7 +31934,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C1F_U0C4C.abvs
+-Encoding: 65814 -1 366
++Encoding: 65814 -1 363
+ Width: 1020
+ VWidth: 819
+ GlyphClass: 2
+@@ -32090,7 +32032,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C20_U0C4C.abvs
+-Encoding: 65815 -1 367
++Encoding: 65815 -1 364
+ Width: 845
+ VWidth: 819
+ GlyphClass: 2
+@@ -32167,7 +32109,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C21_U0C4C.abvs
+-Encoding: 65816 -1 368
++Encoding: 65816 -1 365
+ Width: 924
+ VWidth: 819
+ GlyphClass: 2
+@@ -32263,7 +32205,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C22_U0C4C.abvs
+-Encoding: 65817 -1 369
++Encoding: 65817 -1 366
+ Width: 908
+ VWidth: 819
+ GlyphClass: 2
+@@ -32365,7 +32307,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C23_U0C4C.abvs
+-Encoding: 65818 -1 370
++Encoding: 65818 -1 367
+ Width: 1066
+ VWidth: 819
+ GlyphClass: 2
+@@ -32476,7 +32418,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C24_U0C4C.abvs
+-Encoding: 65819 -1 371
++Encoding: 65819 -1 368
+ Width: 919
+ VWidth: 819
+ GlyphClass: 2
+@@ -32579,7 +32521,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C25_U0C4C.abvs
+-Encoding: 65820 -1 372
++Encoding: 65820 -1 369
+ Width: 881
+ VWidth: 819
+ GlyphClass: 2
+@@ -32672,7 +32614,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C26_U0C4C.abvs
+-Encoding: 65821 -1 373
++Encoding: 65821 -1 370
+ Width: 874
+ VWidth: 819
+ GlyphClass: 2
+@@ -32753,7 +32695,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C27_U0C4C.abvs
+-Encoding: 65822 -1 374
++Encoding: 65822 -1 371
+ Width: 868
+ VWidth: 819
+ GlyphClass: 2
+@@ -32840,7 +32782,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C28_U0C4C.abvs
+-Encoding: 65823 -1 375
++Encoding: 65823 -1 372
+ Width: 839
+ VWidth: 819
+ GlyphClass: 2
+@@ -32919,7 +32861,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2A_U0C4C.abvs
+-Encoding: 65824 -1 376
++Encoding: 65824 -1 373
+ Width: 880
+ VWidth: 819
+ GlyphClass: 2
+@@ -33011,7 +32953,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2B_U0C4C.abvs
+-Encoding: 65825 -1 377
++Encoding: 65825 -1 374
+ Width: 893
+ VWidth: 819
+ GlyphClass: 2
+@@ -33109,7 +33051,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2C_U0C4C.abvs
+-Encoding: 65826 -1 378
++Encoding: 65826 -1 375
+ Width: 903
+ VWidth: 819
+ GlyphClass: 2
+@@ -33206,7 +33148,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2D_U0C4C.abvs
+-Encoding: 65827 -1 379
++Encoding: 65827 -1 376
+ Width: 890
+ VWidth: 819
+ GlyphClass: 2
+@@ -33303,7 +33245,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2E_U0C4C.abvs
+-Encoding: 65828 -1 380
++Encoding: 65828 -1 377
+ Width: 1270
+ VWidth: 819
+ GlyphClass: 2
+@@ -33407,7 +33349,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C2F_U0C4C.abvs
+-Encoding: 65829 -1 381
++Encoding: 65829 -1 378
+ Width: 1552
+ VWidth: 819
+ GlyphClass: 2
+@@ -33518,7 +33460,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C30_U0C4C.abvs
+-Encoding: 65830 -1 382
++Encoding: 65830 -1 379
+ Width: 812
+ VWidth: 819
+ GlyphClass: 2
+@@ -33589,7 +33531,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C31_U0C4C.abvs
+-Encoding: 65831 -1 383
++Encoding: 65831 -1 380
+ Width: 1006
+ VWidth: 819
+ GlyphClass: 2
+@@ -33699,7 +33641,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C32_U0C4C.abvs
+-Encoding: 65832 -1 384
++Encoding: 65832 -1 381
+ Width: 913
+ VWidth: 819
+ GlyphClass: 2
+@@ -33782,7 +33724,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C33_U0C4C.abvs
+-Encoding: 65833 -1 385
++Encoding: 65833 -1 382
+ Width: 816
+ VWidth: 819
+ GlyphClass: 2
+@@ -33885,7 +33827,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C35_U0C4C.abvs
+-Encoding: 65834 -1 386
++Encoding: 65834 -1 383
+ Width: 862
+ VWidth: 819
+ GlyphClass: 2
+@@ -33970,7 +33912,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C36_U0C4C.abvs
+-Encoding: 65835 -1 387
++Encoding: 65835 -1 384
+ Width: 756
+ VWidth: 819
+ GlyphClass: 2
+@@ -34065,7 +34007,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C37_U0C4C.abvs
+-Encoding: 65836 -1 388
++Encoding: 65836 -1 385
+ Width: 895
+ VWidth: 819
+ GlyphClass: 2
+@@ -34164,7 +34106,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C4C.abvs
+-Encoding: 65837 -1 389
++Encoding: 65837 -1 386
+ Width: 885
+ VWidth: 819
+ GlyphClass: 2
+@@ -34250,7 +34192,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C39_U0C4C.abvs
+-Encoding: 65838 -1 390
++Encoding: 65838 -1 387
+ Width: 1222
+ VWidth: 819
+ GlyphClass: 2
+@@ -34371,7 +34313,7 @@ Ligature2: "'abvs' Above Base Substituti
+ EndChar
+ 
+ StartChar: U0C15_U0C4C_U0C37_U0C4D.akhn
+-Encoding: 65839 -1 391
++Encoding: 65839 -1 388
+ Width: 800
+ VWidth: 819
+ GlyphClass: 2
+@@ -34478,7 +34420,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C4D.haln
+-Encoding: 65840 -1 392
++Encoding: 65840 -1 389
+ Width: 473
+ VWidth: 819
+ GlyphClass: 2
+@@ -34545,7 +34487,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C16_U0C4D.haln
+-Encoding: 65841 -1 393
++Encoding: 65841 -1 390
+ Width: 705
+ VWidth: 819
+ GlyphClass: 2
+@@ -34648,7 +34590,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C17_U0C4D.haln
+-Encoding: 65842 -1 394
++Encoding: 65842 -1 391
+ Width: 519
+ VWidth: 819
+ GlyphClass: 2
+@@ -34699,7 +34641,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C18_U0C4D.haln
+-Encoding: 65843 -1 395
++Encoding: 65843 -1 392
+ Width: 950
+ VWidth: 819
+ GlyphClass: 2
+@@ -34797,7 +34739,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C19_U0C4D.haln
+-Encoding: 65844 -1 396
++Encoding: 65844 -1 393
+ Width: 618
+ VWidth: 819
+ GlyphClass: 2
+@@ -34890,7 +34832,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C1A_U0C4D.haln
+-Encoding: 65845 -1 397
++Encoding: 65845 -1 394
+ Width: 640
+ VWidth: 819
+ GlyphClass: 2
+@@ -34965,7 +34907,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C1B_U0C4D.haln
+-Encoding: 65846 -1 398
++Encoding: 65846 -1 395
+ Width: 641
+ VWidth: 819
+ GlyphClass: 2
+@@ -35046,7 +34988,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C1C_U0C4D.haln
+-Encoding: 65847 -1 399
++Encoding: 65847 -1 396
+ Width: 644
+ VWidth: 819
+ GlyphClass: 2
+@@ -35140,7 +35082,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C1D_U0C4D.haln
+-Encoding: 65848 -1 400
++Encoding: 65848 -1 397
+ Width: 1183
+ VWidth: 819
+ GlyphClass: 2
+@@ -35237,7 +35179,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C1E_U0C4D.haln
+-Encoding: 65849 -1 401
++Encoding: 65849 -1 398
+ Width: 810
+ VWidth: 819
+ GlyphClass: 2
+@@ -35337,7 +35279,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C1F_U0C4D.haln
+-Encoding: 65850 -1 402
++Encoding: 65850 -1 399
+ Width: 740
+ VWidth: 819
+ GlyphClass: 2
+@@ -35420,7 +35362,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C20_U0C4D.haln
+-Encoding: 65851 -1 403
++Encoding: 65851 -1 400
+ Width: 540
+ VWidth: 819
+ GlyphClass: 2
+@@ -35485,7 +35427,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C21_U0C4D.haln
+-Encoding: 65852 -1 404
++Encoding: 65852 -1 401
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -35569,7 +35511,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C22_U0C4D.haln
+-Encoding: 65853 -1 405
++Encoding: 65853 -1 402
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -35659,7 +35601,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C23_U0C4D.haln
+-Encoding: 65854 -1 406
++Encoding: 65854 -1 403
+ Width: 761
+ VWidth: 819
+ GlyphClass: 2
+@@ -35758,7 +35700,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C24_U0C4D.haln
+-Encoding: 65855 -1 407
++Encoding: 65855 -1 404
+ Width: 654
+ VWidth: 819
+ GlyphClass: 2
+@@ -35846,7 +35788,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C25_U0C4D.haln
+-Encoding: 65856 -1 408
++Encoding: 65856 -1 405
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -35927,7 +35869,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C26_U0C4D.haln
+-Encoding: 65857 -1 409
++Encoding: 65857 -1 406
+ Width: 644
+ VWidth: 819
+ GlyphClass: 2
+@@ -35996,7 +35938,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C27_U0C4D.haln
+-Encoding: 65858 -1 410
++Encoding: 65858 -1 407
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -36071,7 +36013,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C28_U0C4D.haln
+-Encoding: 65859 -1 411
++Encoding: 65859 -1 408
+ Width: 606
+ VWidth: 819
+ GlyphClass: 2
+@@ -36137,7 +36079,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C2A_U0C4D.haln
+-Encoding: 65860 -1 412
++Encoding: 65860 -1 409
+ Width: 572
+ VWidth: 819
+ GlyphClass: 2
+@@ -36214,7 +36156,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C2B_U0C4D.haln
+-Encoding: 65861 -1 413
++Encoding: 65861 -1 410
+ Width: 577
+ VWidth: 819
+ GlyphClass: 2
+@@ -36297,7 +36239,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C2C_U0C4D.haln
+-Encoding: 65862 -1 414
++Encoding: 65862 -1 411
+ Width: 672
+ VWidth: 819
+ GlyphClass: 2
+@@ -36379,7 +36321,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C2D_U0C4D.haln
+-Encoding: 65863 -1 415
++Encoding: 65863 -1 412
+ Width: 645
+ VWidth: 819
+ GlyphClass: 2
+@@ -36467,7 +36409,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C2E_U0C4D.haln
+-Encoding: 65864 -1 416
++Encoding: 65864 -1 413
+ Width: 949
+ VWidth: 819
+ GlyphClass: 2
+@@ -36553,7 +36495,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C2F_U0C4D.haln
+-Encoding: 65865 -1 417
++Encoding: 65865 -1 414
+ Width: 1240
+ VWidth: 819
+ GlyphClass: 2
+@@ -36640,7 +36582,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C30_U0C4D.haln
+-Encoding: 65866 -1 418
++Encoding: 65866 -1 415
+ Width: 540
+ VWidth: 819
+ GlyphClass: 2
+@@ -36699,7 +36641,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C31_U0C4D.haln
+-Encoding: 65867 -1 419
++Encoding: 65867 -1 416
+ Width: 757
+ VWidth: 819
+ GlyphClass: 2
+@@ -36798,7 +36740,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C32_U0C4D.haln
+-Encoding: 65868 -1 420
++Encoding: 65868 -1 417
+ Width: 666
+ VWidth: 819
+ GlyphClass: 2
+@@ -36870,7 +36812,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C33_U0C4D.haln
+-Encoding: 65869 -1 421
++Encoding: 65869 -1 418
+ Width: 561
+ VWidth: 819
+ GlyphClass: 2
+@@ -36960,7 +36902,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C35_U0C4D.haln
+-Encoding: 65870 -1 422
++Encoding: 65870 -1 419
+ Width: 576
+ VWidth: 819
+ GlyphClass: 2
+@@ -37032,7 +36974,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C36_U0C4D.haln
+-Encoding: 65871 -1 423
++Encoding: 65871 -1 420
+ Width: 500
+ VWidth: 819
+ GlyphClass: 2
+@@ -37112,7 +37054,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C37_U0C4D.haln
+-Encoding: 65872 -1 424
++Encoding: 65872 -1 421
+ Width: 600
+ VWidth: 819
+ GlyphClass: 2
+@@ -37196,7 +37138,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C38_U0C4D.haln
+-Encoding: 65873 -1 425
++Encoding: 65873 -1 422
+ Width: 590
+ VWidth: 819
+ GlyphClass: 2
+@@ -37267,7 +37209,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C39_U0C4D.haln
+-Encoding: 65874 -1 426
++Encoding: 65874 -1 423
+ Width: 882
+ VWidth: 819
+ GlyphClass: 2
+@@ -37368,7 +37310,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C15_U0C37_U0C4D.akhn_U0C4D.haln
+-Encoding: 65875 -1 427
++Encoding: 65875 -1 424
+ Width: 511
+ VWidth: 819
+ GlyphClass: 2
+@@ -37463,7 +37405,7 @@ Ligature2: "'haln' Halant Forms in Telug
+ EndChar
+ 
+ StartChar: U0C1C_U0C41.psts
+-Encoding: 65876 -1 428
++Encoding: 65876 -1 425
+ Width: 849
+ VWidth: 819
+ GlyphClass: 2
+@@ -37560,7 +37502,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C1C_U0C42.psts
+-Encoding: 65877 -1 429
++Encoding: 65877 -1 426
+ Width: 1162
+ VWidth: 819
+ GlyphClass: 2
+@@ -37678,7 +37620,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C2A_U0C41.psts
+-Encoding: 65878 -1 430
++Encoding: 65878 -1 427
+ Width: 822
+ VWidth: 819
+ GlyphClass: 2
+@@ -37757,7 +37699,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C2A_U0C42.psts
+-Encoding: 65879 -1 431
++Encoding: 65879 -1 428
+ Width: 1196
+ VWidth: 819
+ GlyphClass: 2
+@@ -37861,7 +37803,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C2B_U0C41.psts
+-Encoding: 65880 -1 432
++Encoding: 65880 -1 429
+ Width: 822
+ VWidth: 819
+ GlyphClass: 2
+@@ -37944,7 +37886,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C2B_U0C42.psts
+-Encoding: 65881 -1 433
++Encoding: 65881 -1 430
+ Width: 1196
+ VWidth: 819
+ GlyphClass: 2
+@@ -38052,7 +37994,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C35_U0C41.psts
+-Encoding: 65882 -1 434
++Encoding: 65882 -1 431
+ Width: 822
+ VWidth: 819
+ GlyphClass: 2
+@@ -38126,7 +38068,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C35_U0C42.psts
+-Encoding: 65883 -1 435
++Encoding: 65883 -1 432
+ Width: 1196
+ VWidth: 819
+ GlyphClass: 2
+@@ -38226,7 +38168,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C15_U0C4D.blwf
+-Encoding: 65884 -1 436
++Encoding: 65884 -1 433
+ Width: 500
+ VWidth: 819
+ GlyphClass: 4
+@@ -38270,7 +38212,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C16_U0C4D.blwf
+-Encoding: 65885 -1 437
++Encoding: 65885 -1 434
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -38352,7 +38294,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C17_U0C4D.blwf
+-Encoding: 65886 -1 438
++Encoding: 65886 -1 435
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -38380,7 +38322,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C18_U0C4D.blwf
+-Encoding: 65887 -1 439
++Encoding: 65887 -1 436
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -38449,7 +38391,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C19_U0C4D.blwf
+-Encoding: 65888 -1 440
++Encoding: 65888 -1 437
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -38519,7 +38461,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C1A_U0C4D.blwf
+-Encoding: 65889 -1 441
++Encoding: 65889 -1 438
+ Width: 412
+ VWidth: 819
+ GlyphClass: 4
+@@ -38567,7 +38509,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C1B_U0C4D.blwf
+-Encoding: 65890 -1 442
++Encoding: 65890 -1 439
+ Width: 402
+ VWidth: 819
+ GlyphClass: 4
+@@ -38621,7 +38563,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C1C_U0C4D.blwf
+-Encoding: 65891 -1 443
++Encoding: 65891 -1 440
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -38697,7 +38639,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C1D_U0C4D.blwf
+-Encoding: 65892 -1 444
++Encoding: 65892 -1 441
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -38769,7 +38711,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C1E_U0C4D.blwf
+-Encoding: 65893 -1 445
++Encoding: 65893 -1 442
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -38847,7 +38789,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C1F_U0C4D.blwf
+-Encoding: 65894 -1 446
++Encoding: 65894 -1 443
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -38909,7 +38851,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C20_U0C4D.blwf
+-Encoding: 65895 -1 447
++Encoding: 65895 -1 444
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -38951,7 +38893,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C21_U0C4D.blwf
+-Encoding: 65896 -1 448
++Encoding: 65896 -1 445
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39011,7 +38953,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C22_U0C4D.blwf
+-Encoding: 65897 -1 449
++Encoding: 65897 -1 446
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39075,7 +39017,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C23_U0C4D.blwf
+-Encoding: 65898 -1 450
++Encoding: 65898 -1 447
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39151,7 +39093,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C24_U0C4D.blwf
+-Encoding: 65899 -1 451
++Encoding: 65899 -1 448
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39192,7 +39134,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C25_U0C4D.blwf
+-Encoding: 65900 -1 452
++Encoding: 65900 -1 449
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39248,7 +39190,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C26_U0C4D.blwf
+-Encoding: 65901 -1 453
++Encoding: 65901 -1 450
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39294,7 +39236,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C27_U0C4D.blwf
+-Encoding: 65902 -1 454
++Encoding: 65902 -1 451
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39344,7 +39286,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C28_U0C4D.blwf
+-Encoding: 65903 -1 455
++Encoding: 65903 -1 452
+ Width: 254
+ VWidth: 819
+ GlyphClass: 4
+@@ -39398,7 +39340,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C2A_U0C4D.blwf
+-Encoding: 65904 -1 456
++Encoding: 65904 -1 453
+ Width: 315
+ VWidth: 819
+ GlyphClass: 4
+@@ -39448,7 +39390,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C2B_U0C4D.blwf
+-Encoding: 65905 -1 457
++Encoding: 65905 -1 454
+ Width: 318
+ VWidth: 819
+ GlyphClass: 4
+@@ -39501,7 +39443,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C2C_U0C4D.blwf
+-Encoding: 65906 -1 458
++Encoding: 65906 -1 455
+ Width: 383
+ VWidth: 819
+ GlyphClass: 4
+@@ -39558,7 +39500,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C2D_U0C4D.blwf
+-Encoding: 65907 -1 459
++Encoding: 65907 -1 456
+ Width: 384
+ VWidth: 819
+ GlyphClass: 4
+@@ -39619,7 +39561,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C2E_U0C4D.blwf
+-Encoding: 65908 -1 460
++Encoding: 65908 -1 457
+ Width: 246
+ VWidth: 819
+ GlyphClass: 4
+@@ -39678,7 +39620,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C2F_U0C4D.blwf
+-Encoding: 65909 -1 461
++Encoding: 65909 -1 458
+ Width: 294
+ VWidth: 819
+ GlyphClass: 4
+@@ -39737,7 +39679,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C30_U0C4D.blwf
+-Encoding: 65910 -1 462
++Encoding: 65910 -1 459
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39769,7 +39711,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C31_U0C4D.blwf
+-Encoding: 65911 -1 463
++Encoding: 65911 -1 460
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39847,7 +39789,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C32_U0C4D.blwf
+-Encoding: 65912 -1 464
++Encoding: 65912 -1 461
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -39892,7 +39834,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C33_U0C4D.blwf
+-Encoding: 65913 -1 465
++Encoding: 65913 -1 462
+ Width: 304
+ VWidth: 819
+ GlyphClass: 4
+@@ -39959,7 +39901,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C35_U0C4D.blwf
+-Encoding: 65914 -1 466
++Encoding: 65914 -1 463
+ Width: 350
+ VWidth: 819
+ GlyphClass: 4
+@@ -40020,7 +39962,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C36_U0C4D.blwf
+-Encoding: 65915 -1 467
++Encoding: 65915 -1 464
+ Width: 264
+ VWidth: 819
+ GlyphClass: 4
+@@ -40081,7 +40023,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C37_U0C4D.blwf
+-Encoding: 65916 -1 468
++Encoding: 65916 -1 465
+ Width: 115
+ VWidth: 819
+ GlyphClass: 4
+@@ -40136,7 +40078,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C38_U0C4D.blwf
+-Encoding: 65917 -1 469
++Encoding: 65917 -1 466
+ Width: 343
+ VWidth: 819
+ GlyphClass: 4
+@@ -40179,7 +40121,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C39_U0C4D.blwf
+-Encoding: 65918 -1 470
++Encoding: 65918 -1 467
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -40253,7 +40195,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C15_U0C4D.blwf_U0C37_U0C4D.blwf.blwf
+-Encoding: 65919 -1 471
++Encoding: 65919 -1 468
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -40323,7 +40265,7 @@ Ligature2: "'blwf' Below Base Forms in T
+ EndChar
+ 
+ StartChar: U0C56_U0C24_U0C4D.blwf.blws
+-Encoding: 65920 -1 472
++Encoding: 65920 -1 469
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -40387,7 +40329,7 @@ Ligature2: "'blws' Below Base Substituti
+ EndChar
+ 
+ StartChar: glyph471
+-Encoding: 65921 -1 473
++Encoding: 65921 -1 470
+ Width: 412
+ VWidth: 819
+ GlyphClass: 2
+@@ -40470,7 +40412,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
+-Encoding: 65922 -1 474
++Encoding: 65922 -1 471
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -40521,7 +40463,7 @@ Ligature2: "'blws' Below Base Substituti
+ EndChar
+ 
+ StartChar: glyph473
+-Encoding: 65923 -1 475
++Encoding: 65923 -1 472
+ Width: 0
+ VWidth: 819
+ GlyphClass: 2
+@@ -40592,7 +40534,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: U0C15_U0C37_U0C4D.akhn
+-Encoding: 65924 -1 476
++Encoding: 65924 -1 473
+ Width: 511
+ VWidth: 819
+ GlyphClass: 2
+@@ -40672,7 +40614,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C36_U0C40.abvs_U0C30_U0C4D.blwf.blws
+-Encoding: 65925 -1 477
++Encoding: 65925 -1 474
+ Width: 701
+ VWidth: 819
+ GlyphClass: 2
+@@ -40774,7 +40716,7 @@ Ligature2: "'blws' Below Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
+-Encoding: 65926 -1 478
++Encoding: 65926 -1 475
+ Width: 716
+ VWidth: 819
+ GlyphClass: 2
+@@ -40866,7 +40808,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C38_U0C3F.abvs_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
+-Encoding: 65927 -1 479
++Encoding: 65927 -1 476
+ Width: 716
+ VWidth: 819
+ GlyphClass: 2
+@@ -40972,7 +40914,7 @@ Ligature2: "'blws' Below Base Substituti
+ EndChar
+ 
+ StartChar: U0C38_U0C24_U0C30_U0C40.akhn
+-Encoding: 65928 -1 480
++Encoding: 65928 -1 477
+ Width: 716
+ VWidth: 819
+ GlyphClass: 2
+@@ -41092,7 +41034,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C37_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws
+-Encoding: 65929 -1 481
++Encoding: 65929 -1 478
+ Width: 713
+ VWidth: 819
+ GlyphClass: 2
+@@ -41217,7 +41159,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C37_U0C1F_U0C30_U0C40.akhn
+-Encoding: 65930 -1 482
++Encoding: 65930 -1 479
+ Width: 704
+ VWidth: 819
+ GlyphClass: 2
+@@ -41369,7 +41311,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
+-Encoding: 65931 -1 483
++Encoding: 65931 -1 480
+ Width: 963
+ VWidth: 819
+ GlyphClass: 2
+@@ -41488,7 +41430,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C15_U0C3F_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
+-Encoding: 65932 -1 484
++Encoding: 65932 -1 481
+ Width: 963
+ VWidth: 819
+ GlyphClass: 2
+@@ -41624,7 +41566,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C15_U0C40_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
+-Encoding: 65933 -1 485
++Encoding: 65933 -1 482
+ Width: 963
+ VWidth: 819
+ GlyphClass: 2
+@@ -41774,7 +41716,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C37_U0C3F.abvs_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws
+-Encoding: 65934 -1 486
++Encoding: 65934 -1 483
+ Width: 604
+ VWidth: 819
+ GlyphClass: 2
+@@ -41912,7 +41854,7 @@ Ligature2: "'blws' Below Base Substituti
+ EndChar
+ 
+ StartChar: U0C15_U0C41.psts
+-Encoding: 65935 -1 487
++Encoding: 65935 -1 484
+ Width: 881
+ VWidth: 819
+ GlyphClass: 2
+@@ -41976,7 +41918,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C21_U0C41.psts
+-Encoding: 65936 -1 488
++Encoding: 65936 -1 485
+ Width: 1076
+ VWidth: 819
+ GlyphClass: 2
+@@ -42058,7 +42000,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C22_U0C41.psts
+-Encoding: 65937 -1 489
++Encoding: 65937 -1 486
+ Width: 1076
+ VWidth: 819
+ GlyphClass: 2
+@@ -42148,7 +42090,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C39_U0C41.psts
+-Encoding: 65938 -1 490
++Encoding: 65938 -1 487
+ Width: 1175
+ VWidth: 819
+ GlyphClass: 2
+@@ -42247,7 +42189,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C15_U0C42.psts
+-Encoding: 65939 -1 491
++Encoding: 65939 -1 488
+ Width: 1188
+ VWidth: 819
+ GlyphClass: 2
+@@ -42337,7 +42279,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C21_U0C42.psts
+-Encoding: 65940 -1 492
++Encoding: 65940 -1 489
+ Width: 1470
+ VWidth: 819
+ GlyphClass: 2
+@@ -42437,7 +42379,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C22_U0C42.psts
+-Encoding: 65941 -1 493
++Encoding: 65941 -1 490
+ Width: 1470
+ VWidth: 819
+ GlyphClass: 2
+@@ -42545,7 +42487,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: U0C39_U0C42.psts
+-Encoding: 65942 -1 494
++Encoding: 65942 -1 491
+ Width: 1564
+ VWidth: 819
+ GlyphClass: 2
+@@ -42668,7 +42610,7 @@ Ligature2: "'psts' Post Base Substitutio
+ EndChar
+ 
+ StartChar: glyph493
+-Encoding: 65943 -1 495
++Encoding: 65943 -1 492
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -42693,7 +42635,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph494
+-Encoding: 65944 -1 496
++Encoding: 65944 -1 493
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -42719,7 +42661,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph495
+-Encoding: 65945 -1 497
++Encoding: 65945 -1 494
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -42745,7 +42687,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph496
+-Encoding: 65946 -1 498
++Encoding: 65946 -1 495
+ Width: 491
+ VWidth: 819
+ GlyphClass: 4
+@@ -42786,7 +42728,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph497
+-Encoding: 65947 -1 499
++Encoding: 65947 -1 496
+ Width: 460
+ VWidth: 819
+ GlyphClass: 4
+@@ -42865,7 +42807,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph498
+-Encoding: 65948 -1 500
++Encoding: 65948 -1 497
+ Width: 423
+ VWidth: 819
+ GlyphClass: 4
+@@ -42890,7 +42832,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph499
+-Encoding: 65949 -1 501
++Encoding: 65949 -1 498
+ Width: 736
+ VWidth: 819
+ GlyphClass: 4
+@@ -42956,7 +42898,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph500
+-Encoding: 65950 -1 502
++Encoding: 65950 -1 499
+ Width: 500
+ VWidth: 819
+ GlyphClass: 4
+@@ -43023,7 +42965,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph501
+-Encoding: 65951 -1 503
++Encoding: 65951 -1 500
+ Width: 526
+ VWidth: 819
+ GlyphClass: 4
+@@ -43068,7 +43010,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph502
+-Encoding: 65952 -1 504
++Encoding: 65952 -1 501
+ Width: 526
+ VWidth: 819
+ GlyphClass: 4
+@@ -43119,7 +43061,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph503
+-Encoding: 65953 -1 505
++Encoding: 65953 -1 502
+ Width: 500
+ VWidth: 819
+ GlyphClass: 4
+@@ -43192,7 +43134,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph504
+-Encoding: 65954 -1 506
++Encoding: 65954 -1 503
+ Width: 840
+ VWidth: 819
+ GlyphClass: 4
+@@ -43261,7 +43203,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph505
+-Encoding: 65955 -1 507
++Encoding: 65955 -1 504
+ Width: 560
+ VWidth: 819
+ GlyphClass: 4
+@@ -43336,7 +43278,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph506
+-Encoding: 65956 -1 508
++Encoding: 65956 -1 505
+ Width: 542
+ VWidth: 819
+ GlyphClass: 4
+@@ -43395,7 +43337,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph507
+-Encoding: 65957 -1 509
++Encoding: 65957 -1 506
+ Width: 396
+ VWidth: 819
+ GlyphClass: 4
+@@ -43434,7 +43376,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph508
+-Encoding: 65958 -1 510
++Encoding: 65958 -1 507
+ Width: 564
+ VWidth: 819
+ GlyphClass: 4
+@@ -43491,7 +43433,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph509
+-Encoding: 65959 -1 511
++Encoding: 65959 -1 508
+ Width: 564
+ VWidth: 819
+ GlyphClass: 4
+@@ -43552,7 +43494,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph510
+-Encoding: 65960 -1 512
++Encoding: 65960 -1 509
+ Width: 500
+ VWidth: 819
+ GlyphClass: 4
+@@ -43625,7 +43567,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph511
+-Encoding: 65961 -1 513
++Encoding: 65961 -1 510
+ Width: 587
+ VWidth: 819
+ GlyphClass: 4
+@@ -43663,7 +43605,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph512
+-Encoding: 65962 -1 514
++Encoding: 65962 -1 511
+ Width: 552
+ VWidth: 819
+ GlyphClass: 4
+@@ -43716,7 +43658,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph513
+-Encoding: 65963 -1 515
++Encoding: 65963 -1 512
+ Width: 552
+ VWidth: 819
+ GlyphClass: 4
+@@ -43759,7 +43701,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph514
+-Encoding: 65964 -1 516
++Encoding: 65964 -1 513
+ Width: 552
+ VWidth: 819
+ GlyphClass: 4
+@@ -43806,7 +43748,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph515
+-Encoding: 65965 -1 517
++Encoding: 65965 -1 514
+ Width: 549
+ VWidth: 819
+ GlyphClass: 4
+@@ -43857,7 +43799,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph516
+-Encoding: 65966 -1 518
++Encoding: 65966 -1 515
+ Width: 512
+ VWidth: 819
+ GlyphClass: 4
+@@ -43904,7 +43846,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph517
+-Encoding: 65967 -1 519
++Encoding: 65967 -1 516
+ Width: 512
+ VWidth: 819
+ GlyphClass: 4
+@@ -43955,7 +43897,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph518
+-Encoding: 65968 -1 520
++Encoding: 65968 -1 517
+ Width: 512
+ VWidth: 819
+ GlyphClass: 4
+@@ -44010,7 +43952,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph519
+-Encoding: 65969 -1 521
++Encoding: 65969 -1 518
+ Width: 518
+ VWidth: 819
+ GlyphClass: 4
+@@ -44069,7 +44011,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph520
+-Encoding: 65970 -1 522
++Encoding: 65970 -1 519
+ Width: 477
+ VWidth: 819
+ GlyphClass: 4
+@@ -44126,7 +44068,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph521
+-Encoding: 65971 -1 523
++Encoding: 65971 -1 520
+ Width: 408
+ VWidth: 819
+ GlyphClass: 4
+@@ -44183,7 +44125,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph522
+-Encoding: 65972 -1 524
++Encoding: 65972 -1 521
+ Width: 655
+ VWidth: 819
+ GlyphClass: 4
+@@ -44209,7 +44151,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph523
+-Encoding: 65973 -1 525
++Encoding: 65973 -1 522
+ Width: 560
+ VWidth: 819
+ GlyphClass: 4
+@@ -44284,7 +44226,7 @@ Validated: 37
+ EndChar
+ 
+ StartChar: glyph524
+-Encoding: 65974 -1 526
++Encoding: 65974 -1 523
+ Width: 484
+ VWidth: 819
+ GlyphClass: 4
+@@ -44327,7 +44269,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph525
+-Encoding: 65975 -1 527
++Encoding: 65975 -1 524
+ Width: 523
+ VWidth: 819
+ GlyphClass: 4
+@@ -44392,7 +44334,7 @@ Validated: 37
+ EndChar
+ 
+ StartChar: glyph526
+-Encoding: 65976 -1 528
++Encoding: 65976 -1 525
+ Width: 526
+ VWidth: 819
+ GlyphClass: 4
+@@ -44451,7 +44393,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph527
+-Encoding: 65977 -1 529
++Encoding: 65977 -1 526
+ Width: 435
+ VWidth: 819
+ GlyphClass: 4
+@@ -44510,7 +44452,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph528
+-Encoding: 65978 -1 530
++Encoding: 65978 -1 527
+ Width: 561
+ VWidth: 819
+ GlyphClass: 4
+@@ -44562,7 +44504,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: glyph529
+-Encoding: 65979 -1 531
++Encoding: 65979 -1 528
+ Width: 512
+ VWidth: 819
+ GlyphClass: 4
+@@ -44603,7 +44545,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: glyph530
+-Encoding: 65980 -1 532
++Encoding: 65980 -1 529
+ Width: 762
+ VWidth: 819
+ GlyphClass: 4
+@@ -44671,7 +44613,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: glyph531
+-Encoding: 65981 -1 533
++Encoding: 65981 -1 530
+ Width: 565
+ VWidth: 819
+ GlyphClass: 2
+@@ -44740,7 +44682,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: nounicode-3-1-57
+-Encoding: 65982 -1 534
++Encoding: 65982 -1 531
+ Width: 511
+ VWidth: 819
+ GlyphClass: 2
+@@ -44819,7 +44761,7 @@ Validated: 517
+ EndChar
+ 
+ StartChar: U0C15_U0C41_U0C37_U0C4D.akhn
+-Encoding: 65983 -1 535
++Encoding: 65983 -1 532
+ Width: 866
+ VWidth: 819
+ GlyphClass: 2
+@@ -44912,7 +44854,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C42_U0C37_U0C4D.akhn
+-Encoding: 65984 -1 536
++Encoding: 65984 -1 533
+ Width: 1214
+ VWidth: 819
+ GlyphClass: 2
+@@ -45029,7 +44971,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: U0C15_U0C46_U0C56_U0C37_U0C4D.akhn
+-Encoding: 65985 -1 537
++Encoding: 65985 -1 534
+ Width: 511
+ VWidth: 819
+ GlyphClass: 2
+@@ -45137,7 +45079,7 @@ Ligature2: "'akhn' Akhand in Telugu look
+ EndChar
+ 
+ StartChar: glyph536
+-Encoding: 65986 -1 538
++Encoding: 65986 -1 535
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -45163,7 +45105,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph537
+-Encoding: 65987 -1 539
++Encoding: 65987 -1 536
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -45189,7 +45131,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: glyph538
+-Encoding: 65988 -1 540
++Encoding: 65988 -1 537
+ Width: 0
+ VWidth: 819
+ GlyphClass: 4
+@@ -45215,7 +45157,7 @@ Validated: 5
+ EndChar
+ 
+ StartChar: uni0964
+-Encoding: 2404 2404 541
++Encoding: 2404 2404 538
+ Width: 819
+ VWidth: 819
+ LayerCount: 2
+@@ -45231,7 +45173,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: uni0965
+-Encoding: 2405 2405 542
++Encoding: 2405 2405 539
+ Width: 819
+ VWidth: 819
+ LayerCount: 2
+@@ -45252,7 +45194,7 @@ Validated: 1
+ EndChar
+ 
+ StartChar: uni0C62
+-Encoding: 3170 3170 543
++Encoding: 3170 3170 540
+ Width: 0
+ VWidth: 819
+ Flags: W
+@@ -45294,7 +45236,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C63
+-Encoding: 3171 3171 544
++Encoding: 3171 3171 541
+ Width: 0
+ VWidth: 819
+ Flags: W
+@@ -45353,7 +45295,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C58
+-Encoding: 3160 3160 545
++Encoding: 3160 3160 542
+ Width: 640
+ VWidth: 819
+ Flags: W
+@@ -45435,7 +45377,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C59
+-Encoding: 3161 3161 546
++Encoding: 3161 3161 543
+ Width: 651
+ VWidth: 819
+ Flags: W
+@@ -45535,7 +45477,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C78
+-Encoding: 3192 3192 547
++Encoding: 3192 3192 544
+ Width: 707
+ VWidth: 2048
+ Flags: W
+@@ -45579,7 +45521,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C79
+-Encoding: 3193 3193 548
++Encoding: 3193 3193 545
+ Width: 161
+ VWidth: 2048
+ Flags: W
+@@ -45595,7 +45537,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C7A
+-Encoding: 3194 3194 549
++Encoding: 3194 3194 546
+ Width: 482
+ VWidth: 2048
+ Flags: W
+@@ -45623,7 +45565,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C7B
+-Encoding: 3195 3195 550
++Encoding: 3195 3195 547
+ Width: 836
+ VWidth: 2048
+ Flags: W
+@@ -45664,7 +45606,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C7C
+-Encoding: 3196 3196 551
++Encoding: 3196 3196 548
+ Width: 797
+ VWidth: 2048
+ Flags: W
+@@ -45680,7 +45622,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C7D
+-Encoding: 3197 3197 552
++Encoding: 3197 3197 549
+ Width: 801
+ VWidth: 2048
+ Flags: W
+@@ -45719,7 +45661,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C7E
+-Encoding: 3198 3198 553
++Encoding: 3198 3198 550
+ Width: 876
+ VWidth: 2048
+ Flags: W
+@@ -45774,7 +45716,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C7F
+-Encoding: 3199 3199 554
++Encoding: 3199 3199 551
+ Width: 963
+ VWidth: 2048
+ Flags: W
+@@ -45816,7 +45758,7 @@ EndSplineSet
+ EndChar
+ 
+ StartChar: uni0C3D
+-Encoding: 3133 3133 555
++Encoding: 3133 3133 552
+ Width: 1027
+ VWidth: 0
+ Flags: W
+Only in lohit-telugu-2.4.5_mod/: Lohit-Telugu.ttf
